@@ -1,47 +1,73 @@
 * {
-    margin: 0 auto;
-    padding: 0;
+	margin: 0 auto;
+	padding: 0;
 }
-
 header {
-    margin: 0;
+	margin: 0;
 }
-body, html {
-  height: 100%;
-
+body,
+html {
+	height: 100%;
 }
-.section_title{
-align: left;
+.nav-link {
+	padding: 0px;
+	margin: 20px;
+	height: 45%;
 }
-
-#background_landing  {
-height: 80vh;
-background-color: #012C32;
+.nav-item:hover {
+	color: #ff0000 !important;
+	text-decoration-color: #E18728
+}
+a {
+	color: #ffffff;
+}
+a:hover {
+	display: inline-block;
+	border-bottom: 1px solid black;
+	padding-bottom: 2px;
+	color: #6C757D;
+}
+.cvbutton {
+	margin: 10%;
+	height: 75%;
+}
+.bg-dark {
+	background: transparent !important;
+	transition: 2.0 ease;
+}
+.bg-dark.scrolled {
+	background: #012D32 !important;
+	opacity: 0.5;
+}
+.section_title {
+	align: left;
+}
+#background_landing {
+	height: 80vh;
+	background-color: #012C32;
 }
 #landing_header {
-align: right;
-transform: translateY(300px);
+	align: right;
+	transform: translateY(300px);
 }
 #section_heading {
-    transform: translateY(-300px);
+	transform: translateY(-300px);
 }
 #aboutme_section {
-height: 100vh;
-background-color: #51696B;
+	height: 100vh;
+	background-color: #51696B;
 }
-
-#projects_section{
-height:100vh;
-background-color: #c5d2d2;
+#projects_section {
+	height: 100vh;
+	background-color: #c5d2d2;
 }
-
 #testimonial_section {
-height:120vh;
-
+	height: 120vh;
 }
 @media only screen and (max-width: 600px) {
-  #landing_header{
-    transform: translateY(150px);
-    font-size: 10px;
-    align: center;
-}
+	#landing_header {
+		transform: translateY(150px);
+		font-size: 10px;
+		align: center;
+	}
+	
