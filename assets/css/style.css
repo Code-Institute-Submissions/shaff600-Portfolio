@@ -1,3 +1,20 @@
+@font-face {
+    font-family: 'AzonixRegular';
+    src: url('AzonixRegular.eot');
+    src: url('AzonixRegular.eot?#iefix') format('embedded-opentype'),
+        url('AzonixRegular.woff2') format('woff2'),
+        url('AzonixRegular.woff') format('woff'),
+        url('AzonixRegular.ttf') format('truetype'),
+        url('AzonixRegular.svg#AzonixRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* h1{
+
+     font-family: "AzonixRegular";
+} */
 * {
 	margin: 0 auto;
 	padding: 0;
@@ -40,7 +57,10 @@ a:hover {
 	opacity: 0.5;
 }
 .section_title {
-	align: left;
+    font-family: "AzonixRegular";
+    transform: translateY(-120px);
+
+   
 }
 #background_landing {
 	height: 80vh;
@@ -50,8 +70,10 @@ a:hover {
 	align: right;
 	transform: translateY(300px);
 }
-#section_heading {
-	transform: translateY(-300px);
+.section_heading  {
+    font-family: "AzonixRegular";
+    color: #ffffff; 
+
 }
 #aboutme_section {
 	height: 100vh;
@@ -64,10 +86,15 @@ a:hover {
 #testimonial_section {
 	height: 120vh;
 }
-@media only screen and (max-width: 600px) {
-	#landing_header {
-		transform: translateY(150px);
-		font-size: 10px;
-		align: center;
-	}
-	
+  /*
+  ##Device = iphone x
+  ##Screen = B/w 360px to 479px
+*/
+@media (min-width: 375px) and (max-width: 410px) {
+        .section_title {
+        transform: none;
+        text-align: center;
+
+    }
+ 
+}
