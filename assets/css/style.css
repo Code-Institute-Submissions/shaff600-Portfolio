@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'AzonixRegular';
-    src: url('AzonixRegular.eot');
-    src: url('AzonixRegular.eot?#iefix') format('embedded-opentype'),
-        url('AzonixRegular.woff2') format('woff2'),
-        url('AzonixRegular.woff') format('woff'),
-        url('AzonixRegular.ttf') format('truetype'),
-        url('AzonixRegular.svg#AzonixRegular') format('svg');
+    src: url('AzonixRegular.eot'),
+        url('../fonts/AzonixRegular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AzonixRegular.woff2') format('woff2'),
+        url('../fonts/AzonixRegular.woff') format('woff'),
+        url('../fonts/AzonixRegular.ttf') format('truetype'),
+        url('../fonts/AzonixRegular.svg#AzonixRegular') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
