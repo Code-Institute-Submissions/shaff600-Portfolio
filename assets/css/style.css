@@ -11,10 +11,7 @@
     font-display: swap;
 }
 
-/* h1{
 
-     font-family: "AzonixRegular";
-} */
 * {
 	margin: 0 auto;
 	padding: 0;
@@ -59,10 +56,16 @@ a:hover {
 .section_title {
     font-family: "AzonixRegular";
     transform: translateY(-210px);
-    padding: 4%;
-
-   
+    padding: 4%; 
 }
+.landing-image{
+transform: translateY(-380px);
+padding: 45%;
+margin: -10%;
+
+}
+
+
 #background_landing {
 	height: 80vh;
 	background-color: #012C32;
@@ -97,5 +100,17 @@ a:hover {
         text-align: center;
 
     }
+        .landing-image{
+        transform: translateX(0px);
+        transform: translateY(-10px);
+        margin: -45px;
+        padding: 23px;
+        width: 90%;
+        }
+
+        #landing_header{
+        transform: translateY(100px);
+        text-align: center;
+        }
  
 }
