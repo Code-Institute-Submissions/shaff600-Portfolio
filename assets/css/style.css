@@ -1,3 +1,5 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Andika+New+Basic&display=swap');
 @font-face {
     font-family: 'AzonixRegular';
     src: url('AzonixRegular.eot'),
@@ -58,6 +60,14 @@ a:hover {
     transform: translateY(-210px);
     padding: 4%; 
 }
+.landing-info {
+font-family: 'Andika New Basic', sans-serif;
+color: #ffffff;
+text-align: center;
+font-size: 1.1rem;
+transform: translateY(-80px);
+
+}
 .landing-image{
 transform: translateY(-380px);
 padding: 45%;
@@ -71,13 +81,14 @@ margin: -10%;
 	background-color: #012C32;
 }
 #landing_header {
-	align: right;
 	transform: translateY(300px);
 }
 .section_heading  {
     font-family: "AzonixRegular";
     color: #ffffff; 
-
+    text-align: center;
+    margin: 10%;
+    transform: translateY(-10px);
 }
 #aboutme_section {
 	height: 100vh;
@@ -111,6 +122,10 @@ margin: -10%;
         #landing_header{
         transform: translateY(100px);
         text-align: center;
+        }
+
+        .landing-info{
+        transform: translateY(-30px);
         }
  
 }
