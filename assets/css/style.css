@@ -43,7 +43,7 @@ a:hover {
 	padding-bottom: 2px;
 	color: #6C757D;
 }
-.cvbutton {
+.cv-button {
 	margin: 10%;
 	height: 75%;
 }
@@ -55,7 +55,7 @@ a:hover {
 	background: #012D32 !important;
 	opacity: 0.5;
 }
-.section_title {
+.section-title {
     font-family: "AzonixRegular";
     transform: translateY(-210px);
     padding: 4%; 
@@ -76,29 +76,40 @@ margin: -10%;
 }
 
 
-#background_landing {
+#background-landing {
 	height: 80vh;
 	background-color: #012C32;
 }
-#landing_header {
+#landing-header {
 	transform: translateY(300px);
 }
-.section_heading  {
+.section-heading  {
     font-family: "AzonixRegular";
     color: #ffffff; 
     text-align: center;
     margin: 10%;
     transform: translateY(-10px);
 }
-#aboutme_section {
+#aboutme-section {
 	height: 100vh;
 	background-color: #51696B;
 }
-#projects_section {
+#aboutme-header {
+   
+    transform: translateY(-210px);
+    padding: 4%; 
+}
+
+#aboutme-heading {
+
+    font-family:"AzonixRegular";
+}
+
+#projects-section {
 	height: 100vh;
 	background-color: #c5d2d2;
 }
-#testimonial_section {
+#testimonial-section {
 	height: 120vh;
 }
   /*
@@ -119,7 +130,7 @@ margin: -10%;
         width: 90%;
         }
 
-        #landing_header{
+        #landing-header{
         transform: translateY(100px);
         text-align: center;
         }
