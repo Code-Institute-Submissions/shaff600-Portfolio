@@ -94,16 +94,21 @@ margin: -10%;
 	height: 100vh;
 	background-color: #51696B;
 }
-#aboutme-header {
-   
-    transform: translateY(-210px);
-    padding: 4%; 
-}
+
 
 #aboutme-heading {
 
     font-family:"AzonixRegular";
+    transform: translateY(-210px);
+    padding: 4%; 
 }
+.aboutme-info {
+    font-family: 'Andika New Basic', sans-serif;
+    padding: 4%;
+    text-align: justify;
+    transform: translateY(-320px);
+}
+
 
 #projects-section {
 	height: 100vh;
@@ -117,9 +122,11 @@ margin: -10%;
   ##Screen = B/w 360px to 479px
 */
 @media (min-width: 375px) and (max-width: 410px) {
-        .section_title {
+        .section-title {
         transform: none;
         text-align: center;
+        
+        
 
     }
         .landing-image{
@@ -137,6 +144,16 @@ margin: -10%;
 
         .landing-info{
         transform: translateY(-30px);
+        }
+        .aboutme-info {
+        font-size: 3vw;
+          transform: translateY(-30px);
+          text-align: center;
+
+        }
+        #aboutme-section {
+            height: 200vh;
+
         }
  
 }
