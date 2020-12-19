@@ -34,6 +34,7 @@ html {
 	color: #ff0000 !important;
 	text-decoration-color: #E18728
 }
+
 a {
 	color: #ffffff;
 }
@@ -59,6 +60,8 @@ a:hover {
     font-family: "AzonixRegular";
     transform: translateY(-210px);
     padding: 4%; 
+    margin-left:20px;
+    
 }
 .landing-info {
 font-family: 'Andika New Basic', sans-serif;
@@ -95,18 +98,43 @@ margin: -10%;
 	background-color: #51696B;
 }
 
+.aboutme-title {
+ font-family: "AzonixRegular";
+color: #ffffff;
+text-align: left;
+transform: translateY(-170px);
+margin-left:100px;
+margin-bottom: 75px;
 
-#aboutme-heading {
+}
+
+/* #aboutme-heading {
 
     font-family:"AzonixRegular";
     transform: translateY(-210px);
     padding: 4%; 
-}
+} */
 .aboutme-info {
     font-family: 'Andika New Basic', sans-serif;
     padding: 4%;
     text-align: justify;
     transform: translateY(-320px);
+    padding: 100px;;
+}
+.timeline-heading {
+ font-family: "AzonixRegular";
+color: #ffffff;
+text-align: right;
+transform: translateY(-170px);
+margin-right:100px;
+
+}
+.timeline-info {
+font-family: 'Andika New Basic', sans-serif;
+color: #ffffff;
+text-align: center;
+font-size: 1.1rem;
+transform: translateY(-80px); 
 }
 
 
@@ -141,19 +169,37 @@ margin: -10%;
         transform: translateY(100px);
         text-align: center;
         }
-
         .landing-info{
         transform: translateY(-30px);
         }
         .aboutme-info {
-        font-size: 3vw;
+        font-size: 4vw;
           transform: translateY(-30px);
-          text-align: center;
+          text-align: justify;
+          padding: 1rem 1rem 2rem 1rem;
 
         }
         #aboutme-section {
-            height: 200vh;
-
+            height: 300vh;
         }
- 
+       .aboutme-title  {
+        
+         transform: translateX(-50px);
+        text-align: center; 
+        color: #ffffff;
+        }
+        .timeline-heading {
+        transform: translateY(100px);  
+         transform: translateX(50px);
+        font-family: "AzonixRegular";
+        color:#ffffff;
+        text-align: center;
+        }
+        .timeline-info {
+        font-family: 'Andika New Basic', sans-serif;
+        color: #ffffff;
+        text-align: center;
+        font-size: 1.1rem;
+        transform: translateY(20px); 
+}
 }
