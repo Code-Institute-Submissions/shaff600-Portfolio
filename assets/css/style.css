@@ -1,205 +1,215 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Andika+New+Basic&display=swap');
-@font-face {
-    font-family: 'AzonixRegular';
-    src: url('AzonixRegular.eot'),
-        url('../fonts/AzonixRegular.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/AzonixRegular.woff2') format('woff2'),
-        url('../fonts/AzonixRegular.woff') format('woff'),
-        url('../fonts/AzonixRegular.ttf') format('truetype'),
-        url('../fonts/AzonixRegular.svg#AzonixRegular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+ @import url('https://fonts.googleapis.com/css2?family=Andika+New+Basic&display=swap');
+ @font-face {
+     font-family: 'AzonixRegular';
+     src: url('AzonixRegular.eot'), url('../fonts/AzonixRegular.eot?#iefix') format('embedded-opentype'), url('../fonts/AzonixRegular.woff2') format('woff2'), url('../fonts/AzonixRegular.woff') format('woff'), url('../fonts/AzonixRegular.ttf') format('truetype'), url('../fonts/AzonixRegular.svg#AzonixRegular') format('svg');
+     font-weight: normal;
+     font-style: normal;
+     font-display: swap;
+}
+ * {
+     margin: 0 auto;
+     padding: 0;
+}
+ header {
+     margin: 0;
+}
+ body, html {
+     height: 100%;
+}
+ nav {
+     height: 9%;
+}
+ .nav-link {
+     padding: 0px;
+     margin: 20px;
+     height: 45%;
+}
+ .nav-item:hover {
+     color: #ff0000 !important;
+     text-decoration-color: #E18728 
+}
+ .navbar-float-right {
+     right: 0px;
+     position: fixed;
+     top: 0px;
+     margin-right: 100px;
+}
+ .navbar-brand {
+     margin-left: 100px;
+}
+ a {
+     color: #ffffff;
+}
+ a:hover {
+     display: inline-block;
+     border-bottom: 1px solid black;
+     padding-bottom: 2px;
+     color: #6C757D;
+}
+ .cv-button {
+     margin: 10%;
+     height: 75%;
+}
+ .cv-button:hover{
+     background-color: #51686A;
+     cursor: pointer;
+ }
+.cv-button:active {
+  transform: translateY(10px);
+}
+ .bg-dark {
+     background: #012D32 !important;
+     transition: 2.0 ease;
+}
+ .bg-dark.scrolled {
+     background: #012D32;
+     opacity: 0.5;
+}
+ .section-title {
+     font-family: "AzonixRegular";
+     transform: translateY(-210px);
+     padding: 4%;
+     margin-left: 20px;
+}
+ .landing-info {
+     font-family: 'Andika New Basic', sans-serif;
+     color: #ffffff;
+     text-align: center;
+     font-size: 1.1rem;
+     transform: translateY(-80px);
+}
+ .landing-image {
+     transform: translateY(-380px);
+     padding: 45%;
+     margin: -10%;
+}
+ #background-landing {
+     height: 80vh;
+     background-color: #012C32;
+}
+ #landing-header {
+     transform: translateY(300px);
+}
+ .section-heading {
+     font-family: "AzonixRegular";
+     color: #ffffff;
+     text-align: center;
+     margin: 10%;
+     transform: translateY(-10px);
+}
+ #aboutme-section {
+     height: 110vh;
+     background-color: #51696B;
+}
+ .aboutme-title {
+     font-family: "AzonixRegular";
+     color: #ffffff;
+     text-align: left;
+     transform: translateY(-170px);
+     margin-left: 100px;
+     margin-bottom: 75px;
 }
 
-
-* {
-	margin: 0 auto;
-	padding: 0;
+ .aboutme-info {
+     font-family: 'Andika New Basic', sans-serif;
+     padding: 4%;
+     text-align: justify;
+     transform: translateY(-320px);
+     padding: 100px;
+     ;
 }
-header {
-	margin: 0;
+ .timeline-heading {
+     font-family: "AzonixRegular";
+     color: #ffffff;
+     text-align: right;
+     transform: translateY(-170px);
+     margin-right: 100px;
 }
-body,
-html {
-	height: 100%;
+ .timeline-info {
+     font-family: 'Andika New Basic', sans-serif;
+     color: #ffffff;
+     text-align: center;
+     font-size: 1.1rem;
+     transform: translateY(-80px);
 }
-.nav-link {
-	padding: 0px;
-	margin: 20px;
-	height: 45%;
+ #projects-section {
+     height: 100vh;
+     background-color: #c5d2d2;
 }
-.nav-item:hover {
-	color: #ff0000 !important;
-	text-decoration-color: #E18728
+ #testimonial-section {
+     height: 120vh;
 }
-
-a {
-	color: #ffffff;
-}
-a:hover {
-	display: inline-block;
-	border-bottom: 1px solid black;
-	padding-bottom: 2px;
-	color: #6C757D;
-}
-.cv-button {
-	margin: 10%;
-	height: 75%;
-}
-.bg-dark {
-	background: transparent !important;
-	transition: 2.0 ease;
-}
-.bg-dark.scrolled {
-	background: #012D32 !important;
-	opacity: 0.5;
-}
-.section-title {
-    font-family: "AzonixRegular";
-    transform: translateY(-210px);
-    padding: 4%; 
-    margin-left:20px;
-    
-}
-.landing-info {
-font-family: 'Andika New Basic', sans-serif;
-color: #ffffff;
-text-align: center;
-font-size: 1.1rem;
-transform: translateY(-80px);
-
-}
-.landing-image{
-transform: translateY(-380px);
-padding: 45%;
-margin: -10%;
-
-}
-
-
-#background-landing {
-	height: 80vh;
-	background-color: #012C32;
-}
-#landing-header {
-	transform: translateY(300px);
-}
-.section-heading  {
-    font-family: "AzonixRegular";
-    color: #ffffff; 
-    text-align: center;
-    margin: 10%;
-    transform: translateY(-10px);
-}
-#aboutme-section {
-	height: 100vh;
-	background-color: #51696B;
-}
-
-.aboutme-title {
- font-family: "AzonixRegular";
-color: #ffffff;
-text-align: left;
-transform: translateY(-170px);
-margin-left:100px;
-margin-bottom: 75px;
-
-}
-
-/* #aboutme-heading {
-
-    font-family:"AzonixRegular";
-    transform: translateY(-210px);
-    padding: 4%; 
-} */
-.aboutme-info {
-    font-family: 'Andika New Basic', sans-serif;
-    padding: 4%;
-    text-align: justify;
-    transform: translateY(-320px);
-    padding: 100px;;
-}
-.timeline-heading {
- font-family: "AzonixRegular";
-color: #ffffff;
-text-align: right;
-transform: translateY(-170px);
-margin-right:100px;
-
-}
-.timeline-info {
-font-family: 'Andika New Basic', sans-serif;
-color: #ffffff;
-text-align: center;
-font-size: 1.1rem;
-transform: translateY(-80px); 
-}
-
-
-#projects-section {
-	height: 100vh;
-	background-color: #c5d2d2;
-}
-#testimonial-section {
-	height: 120vh;
-}
-  /*
-  ##Device = iphone x
-  ##Screen = B/w 360px to 479px
-*/
-@media (min-width: 375px) and (max-width: 410px) {
-        .section-title {
-        transform: none;
-        text-align: center;
-        
-        
-
+/* ##Device = iphone x ##Screen = B/w 360px to 479px */
+ @media (min-width: 375px) and (max-width: 410px) {
+     .section-title {
+         transform: none;
+         text-align: center;
     }
-        .landing-image{
-        transform: translateX(0px);
-        transform: translateY(-10px);
-        margin: -45px;
-        padding: 23px;
-        width: 90%;
-        }
-
-        #landing-header{
-        transform: translateY(100px);
-        text-align: center;
-        }
-        .landing-info{
-        transform: translateY(-30px);
-        }
-        .aboutme-info {
-        font-size: 4vw;
-          transform: translateY(-30px);
-          text-align: justify;
-          padding: 1rem 1rem 2rem 1rem;
-
-        }
-        #aboutme-section {
-            height: 300vh;
-        }
-       .aboutme-title  {
-        
+     .landing-image {
+         transform: translateX(0px);
+         transform: translateY(-10px);
+         margin: -45px;
+         padding: 23px;
+         width: 90%;
+    }
+     #landing-header {
+         transform: translateY(100px);
+         text-align: center;
+    }
+     .landing-info {
+         transform: translateY(-30px);
+    }
+     .aboutme-info {
+         font-size: 4vw;
+         transform: translateY(-30px);
+         text-align: justify;
+         padding: 1rem 1rem 2rem 1rem;
+    }
+     #aboutme-section {
+         height: 300vh;
+    }
+     .aboutme-title {
          transform: translateX(-50px);
-        text-align: center; 
-        color: #ffffff;
-        }
-        .timeline-heading {
-        transform: translateY(100px);  
+         text-align: center;
+         color: #ffffff;
+    }
+     .timeline-heading {
+         transform: translateY(100px);
          transform: translateX(50px);
-        font-family: "AzonixRegular";
-        color:#ffffff;
-        text-align: center;
-        }
-        .timeline-info {
-        font-family: 'Andika New Basic', sans-serif;
-        color: #ffffff;
-        text-align: center;
-        font-size: 1.1rem;
-        transform: translateY(20px); 
-}
+         font-family: "AzonixRegular";
+         color: #ffffff;
+         text-align: center;
+    }
+     .timeline-info {
+         font-family: 'Andika New Basic', sans-serif;
+         color: #ffffff;
+         text-align: center;
+         font-size: 1.1rem;
+         transform: translateY(20px);
+    }
+     .navbar-collapse {
+         width: 100%;
+    }
+     .nav-item {
+         background-color: black;
+         width: 150%;
+    }
+     ul {
+         text-align: center;
+         width: 100%;
+         margin: 0;
+    }
+     .navbar-toggler {
+         right: 0%;
+         position: absolute;
+    }
+     .fa-bars {
+         right: 50%;
+         color: #ffffff;
+         position: relative;
+         z-index: 9998!important;
+    }
+     .nav-item:hover {
+         background-color: #012d32;
+    }
 }
