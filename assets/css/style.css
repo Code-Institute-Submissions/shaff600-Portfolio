@@ -122,6 +122,15 @@
      height: 100vh;
      background-color: #c5d2d2;
 }
+.card{
+background-color: #C4D2D2;
+border-style: solid;
+  border-width: medium;
+}
+.card-deck {
+    transform: translateY(-180px);
+}
+
  #testimonial-section {
      height: 120vh;
 }
