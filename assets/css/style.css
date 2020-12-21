@@ -114,7 +114,7 @@
      font-family: 'Andika New Basic', sans-serif;
      padding: 4%;
      text-align: justify;
-     transform: translateY(-320px);
+     transform: translateY(-242px);
      padding: 100px;
      ;
 }
@@ -158,7 +158,7 @@
 }
 
 .main-timeline .timeline {
-    margin-bottom: 40px;
+    margin-bottom: 0px;
     position: relative;
     transform:translateY(120px);
 }
@@ -296,7 +296,7 @@
 
 .main-timeline .timeline-content {
     width: 50%;
-    padding: 20px 0 20px 50px;
+    padding: 0 0 0 50px;
     float: right
 }
 
@@ -417,7 +417,7 @@
          padding: 1rem 1rem 2rem 1rem;
     }
      #aboutme-section {
-         height: 250vh;
+         height: 390vh;
     }
      .aboutme-title {
          transform: translateX(-50px);
@@ -456,6 +456,10 @@
     }
      .nav-item:hover {
          background-color: #012d32;
+    }
+    .main-timeline {
+        position: relative;
+        transform:translateY(-54px);
     }
 }
 }
