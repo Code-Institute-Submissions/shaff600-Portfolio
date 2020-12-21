@@ -98,7 +98,7 @@
      transform: translateY(-10px);
 }
  #aboutme-section {
-     height: 120vh;
+     height: 110vh;
      background-color: #51696B;
 }
  .aboutme-title {
@@ -160,7 +160,7 @@
 .main-timeline .timeline {
     margin-bottom: 0px;
     position: relative;
-    transform:translateY(120px);
+    transform:translateY(44px);
 }
 
 .main-timeline .timeline:after {
@@ -417,7 +417,7 @@
          padding: 1rem 1rem 2rem 1rem;
     }
      #aboutme-section {
-         height: 390vh;
+         height: 349vh;
     }
      .aboutme-title {
          transform: translateX(-50px);
@@ -459,7 +459,7 @@
     }
     .main-timeline {
         position: relative;
-        transform:translateY(-54px);
+        transform:translateY(-30px);
     }
 }
 }
