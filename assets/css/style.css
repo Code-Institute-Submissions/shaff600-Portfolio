@@ -40,7 +40,7 @@
  a {
      color: #ffffff;
 }
- a:hover {
+ .nav-link:hover {
      display: inline-block;
      border-bottom: 1px solid black;
      padding-bottom: 2px;
@@ -126,10 +126,14 @@
 background-color: #C4D2D2;
 border-style: solid;
   border-width: medium;
+   margin: 10%;
 }
 .card-deck {
-    transform: translateY(-180px);
+    transform: translateY(-390px);
+    padding: 4%;
+   
 }
+
 
  #testimonial-section {
      height: 120vh;
@@ -426,7 +430,7 @@ border-style: solid;
          padding: 1rem 1rem 2rem 1rem;
     }
      #aboutme-section {
-         height: 349vh;
+         height: 359vh;
     }
      .aboutme-title {
          transform: translateX(-50px);
@@ -470,5 +474,15 @@ border-style: solid;
         position: relative;
         transform:translateY(-30px);
     }
+     #projects-section {
+       height: 195vh;  
+     }
+}
+    .card-deck {
+    transform: translateY(-34px);
+    transform: translateX(13px);
+    text-align: center;
+   
+   
 }
 }
