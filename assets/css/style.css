@@ -134,21 +134,22 @@ border-style: solid;
   
 }
 #testimonial-section {
-     height: 140vh;
+     height: 100vh;
      background-color: #BCBCBE;
+}
+.carousel-caption{
+    padding-top: 20%;
+    margin-bottom: -17%;
 }
 
 .testimonial-info {
     font-family: 'Andika New Basic', sans-serif;
-    text-align: justify;
-
+    margin-bottom: 5%;
    
-    transform: translateY(380px);
 }
 
 .carousel-indicators{
        transform: translateY(300px);
-
 }
 .testimonial-ref{
     margin-bottom: auto;
@@ -521,4 +522,21 @@ footer{
              height:75vh;  
 
       }
+      .carousel-caption{
+    padding-top: 20%;
+    margin-bottom: -77%;
+}
+
+.testimonial-info {
+    font-family: 'Andika New Basic', sans-serif;
+    font-size: 3.1vw;
+    margin-bottom: 5%;
+   
+}
+.carousel-control-prev{
+    transform: translateY(80px);
+}
+.carousel-control-next{
+    transform: translateY(80px);
+}
 }
