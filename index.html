@@ -1,312 +1,412 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" />
-        <script src="https://kit.fontawesome.com/39f89b0bd7.js" crossorigin="anonymous"></script>>
-        <link rel="stylesheet" href="assets/css/style.css" />
 
-        <title>Shafyl Choudhury's Portfolio</title>
-    </head>
-    <body>
-        <header>
-            <nav class="navbar fixed-top navbar-expand-lg bg-dark fixed-top">
-                <div class="d-flex flex-grow-1">
-                    <a class="navbar-brand" href="#">Navbar</a>
-                    <button class="navbar-toggler collapsed fa-bars" type="button" data-toggle="collapse" data-target="#myDropdown" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    </div>
-                
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" />
+    <script src="https://kit.fontawesome.com/39f89b0bd7.js" crossorigin="anonymous"></script>>
+    <link rel="stylesheet" href="assets/css/style.css" />
 
-                <div class="collapse navbar-collapse" id="myDropdown">
-                    <ul class="navbar-nav navbar-float-right smooth-scroll" >
-                  
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">About Me <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Projects</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link" href="#">Testimonial <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item dropdown">
-                  <button type="button" class="btn btn-outline-secondary cv-button">Download CV</button>
-                </li>
-                <li class="nav-item dropdown">
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">About Me</a>
-                    <a class="dropdown-item" href="#">Projects</a>
-                    <a class="dropdown-item" href="#">Testimonial</a>
-                    <a class="dropdown-item">
-                    <button type="button" class="btn btn-outline-secondary cv-button">Download CV</button>
-                    </a>
-                    </div>
-                </li>
+    <title>Shafyl Choudhury's Portfolio</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar fixed-top navbar-expand-lg bg-dark fixed-top">
+            <div class="d-flex flex-grow-1">
+                <a class="navbar-brand" href="#">SC</a>
+                <button class="navbar-toggler collapsed fa-bars" type="button" data-toggle="collapse"
+                    data-target="#myDropdown" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+
+
+            <div class="collapse navbar-collapse" id="myDropdown">
+                <ul class="navbar-nav navbar-float-right smooth-scroll">
+
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">About Me <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Projects</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#">Testimonial <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <button type="button" class="btn btn-outline-secondary cv-button">Download CV</button>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">About Me</a>
+                            <a class="dropdown-item" href="#">Projects</a>
+                            <a class="dropdown-item" href="#">Testimonial</a>
+                            <a class="dropdown-item">
+                                <button type="button" class="btn btn-outline-secondary cv-button">Download CV</button>
+                            </a>
+                        </div>
+                    </li>
                 </ul>
             </div>
-            </nav>
-        </header>
+        </nav>
+    </header>
 
-        <!-- landing-->
-        <section id="background-landing">
-            <div class="container-fluid" id="landing-header">
-                <div class="row">
-                    <div class="col-12 col-md-6">
-                        <img src="assets/images/bitemoji.png" alt="Shaf BitEmoji" class="landing-image">
-                    </div>
-                    <div class="col-12 col-md-6">
-                        <h1 class="section-heading">Welcome To My Portfolio</h1>
-                        <p class="landing-info">Hey<span>&#128075;&#127998;</span> I'm Shaff. I'm a Recent Computing BSc Graduate with Industrial Experience. <br>
-                            Currently Working as a Technical Consultant   </p>
-                    </div>
+    <!-- landing-->
+    <section id="background-landing">
+        <div class="container-fluid" id="landing-header">
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <img src="assets/images/bitemoji.png" alt="Shaf BitEmoji" class="landing-image">
+                </div>
+                <div class="col-12 col-md-6">
+                    <h1 class="section-heading">Welcome To My Portfolio</h1>
+                    <p class="landing-info">Hey<span>&#128075;&#127998;</span> I'm Shaff. I'm a Recent Computing BSc
+                        Graduate with Industrial Experience. <br>
+                        Currently Working as a Technical Consultant </p>
                 </div>
             </div>
-        </section>
-        <!-- aboutme/timeline -->
-        <section id="aboutme-section">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-                <path fill="#012C32" fill-opacity="1" d="M0,192L80,160C160,128,320,64,480,69.3C640,75,800,149,960,160C1120,171,1280,117,1360,90.7L1440,64L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path>
-            </svg>
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-12 col-md-6">
-                        <h1 class="aboutme-title">About Me</h1>
-                        <p class="aboutme-info">I Am A Recent Computing BSc Graduate From DeMontFort University. The Curriculum For Included Networking,
-                        Database Management Systems, Software Development Lifecycle's, Business Information Systems and Front-End Web Development. <br> <br>
-                        
-                        During My Academic Studies, I Was Able To Spend a Year Within The Tech Industry Working In IT Support. This Role Involved Responding To First-line Support 
-                        Queries From Clients In Relation To Hardware and Software Issues. The Role Allowed Me To Get Hand On Experience With Building Bespoke PC's and Servers. As I Was Raising
-                        Support Tickets For The Developers To Look Into, An Interest Behind The Software Functionality Arose. <br> <br>
+        </div>
+    </section>
+    <!-- aboutme/timeline -->
+    <section id="aboutme-section">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#012C32" fill-opacity="1"
+                d="M0,192L80,160C160,128,320,64,480,69.3C640,75,800,149,960,160C1120,171,1280,117,1360,90.7L1440,64L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z">
+            </path>
+        </svg>
+        <div class="container-fluid aboutme">
+            <div class="row">
+                <div class="col-12 col-md-6 ">
+                    <h1 class="aboutme-title">About Me</h1>
+                    <p class="aboutme-info">I Am A Recent Computing BSc Graduate From DeMontFort University. The
+                        Curriculum For Included Networking,
+                        Database Management Systems, Software Development Lifecycle's, Business Information Systems and
+                        Front-End Web Development. <br> <br>
 
-                        During My 6 Month Appraisal I Voiced That I Was Interested To See How Our Solution Was Developed. From This, I Was Allocated One Afternoon To Learn The 
-                        Development Stack. From This, I Was Able To Build An In-house Stock System with CRUD Functionality To Help Me Calculate Stock Levels Prior To Building PC's and Servers. This Was Developed
+                        During My Academic Studies, I Was Able To Spend a Year Within The Tech Industry Working In IT
+                        Support. This Role Involved Responding To First-line Support
+                        Queries From Clients In Relation To Hardware and Software Issues. The Role Allowed Me To Get
+                        Hand On Experience With Building Bespoke PC's and Servers. As I Was Raising
+                        Support Tickets For The Developers To Look Into, An Interest Behind The Software Functionality
+                        Arose. <br> <br>
+
+                        During My 6 Month Appraisal I Voiced That I Was Interested To See How Our Solution Was
+                        Developed. From This, I Was Allocated One Afternoon To Learn The
+                        Development Stack. From This, I Was Able To Build An In-house Stock System with CRUD
+                        Functionality To Help Me Calculate Stock Levels Prior To Building PC's and Servers. This Was
+                        Developed
                         Using HTML, CSS, JS, PHP and MySql. <br><br>
 
-                        Upon Completion Of The Degree, I Achieved a First-Class Honours With a Placement Year.  Swiftly After This I Was Able To Secure a Graduate Role As a Technical Consultant
-                        Which Involves Contributing To The Process Of Capturing, Clarifying and Managing Requirements For Large IT Systems, Develop and Deploy Components of IT Systems and Ensuring 
+                        Upon Completion Of The Degree, I Achieved a First-Class Honours With a Placement Year. Swiftly
+                        After This I Was Able To Secure a Graduate Role As a Technical Consultant
+                        Which Involves Contributing To The Process Of Capturing, Clarifying and Managing Requirements
+                        For Large IT Systems, Develop and Deploy Components of IT Systems and Ensuring
                         Systems AreBuilt In Line With Technical Specifications. <br><br>
 
-                        I Have Decided To Expand on My Current Skillset By Enroll On A Coding Bootcamp Credit-rated By Edinburgh Napier University, Earning a Diploma in Software Development Through Course Study and Four Projects. 
+                        I Have Decided To Expand on My Current Skillset By Enroll On A Coding Bootcamp Credit-rated By
+                        Edinburgh Napier University, Earning a Diploma in Software Development Through Course Study and
+                        Four Projects.
                         These include HTML, CSS Bootstrap JavaScript, Python, MongoDB, Django and Flask
-                        </p>  
-                        
-                    </div>
-                    <div class="col-12 col-md-6">
-                        <h1 class="timeline-heading">Timeline</h1>
-                        <div class="container">
+                    </p>
+
+                </div>
+                <div class="col-12 col-md-6">
+                    
+                    <div class="container">
                         <div class="main-timeline">
 
-                        <!-- start experience section-->
-                        <div class="timeline">
-                            <div class="icon"></div>
-                            <div class="date-content">
-                                <div class="date-outer">
-                                    <span class="date">
-                                            <span class="month">1st Year</span>
-                                    <span class="year">2016</span>
-                                    </span>
-                                </div>
-                            </div>
-                            <div class="timeline-content">
-                                <h5 class="title">First Year Modules</h5>
-                                <p class="description"><b>Modules:</b> Business Technology, Database Management and Reporting and Information System Development.                              </p>
-                            </div>
-                        </div>
-                        <!-- end experience section-->
-
-                        <!-- start experience section-->
-                        <div class="timeline">
-                            <div class="icon"></div>
-                            <div class="date-content">
-                                <div class="date-outer">
-                                    <span class="date">
-                                            <span class="month">2nd Year</span>
-                                    <span class="year">2017</span>
-                                    </span>
-                                </div>
-                            </div>
-                            <div class="timeline-content">
-                                <h5 class="title">Second Year Modules</h5>
-                                <p class="description"><b>Modules:</b> Project Management and Development, Business Intelligence, Interactive System Design and Evaluation, Introduction to Research, Multimedia Development and Advanced Programming                                  </p>
-                            </div>
-                        </div>
-                        <!-- end experience section-->
-
-                        <!-- start experience section-->
-                        <div class="timeline">
-                            <div class="icon"></div>
-                            <div class="date-content">
-                                <div class="date-outer">
-                                    <span class="date">
-                                            <span class="month">Placement</span>
-                                    <span class="year">2018</span>
-                                    </span>
-                                </div>
-                            </div>
-                            <div class="timeline-content">
-                                <h5 class="title">IT Support/Developer (Placement Year)</h5>
-                                <p class="description"><b>Duties:</b> Provide First-Line Support to Existing Clients In Regards To Software and Hardware Issues, Worked on Internal Software Projects</p>
-                            </div>
-                        </div>
-                        <!-- end experience section-->
-
-                        <!-- start experience section-->
-                        <div class="timeline">
-                            <div class="icon"></div>
-                            <div class="date-content">
-                                <div class="date-outer">
-                                    <span class="date">
-                                            <span class="month">3rd Year</span>
-                                    <span class="year">2019</span>
-                                    </span>
-                                </div>
-                            </div>
-                            <div class="timeline-content">
-                                <h5 class="title">Final Year</h5>
-                                <p class="description"> <b>Modules:</b> Multi-Service Networks, Database Management and Programing, System Building: Management (SDLC) and Computer Ethics and Privacy.                            </p>
-                            </div>
-                        </div>
-                        <!-- end experience section-->
+                            <!-- start experience section-->
                             <div class="timeline">
-                            <div class="icon"></div>
-                            <div class="date-content">
-                                <div class="date-outer">
-                                    <span class="date">
-                                            <span class="month">Graduate</span>
-                                    <span class="year">2020</span>
-                                    </span>
+                                <div class="icon"></div>
+                                <div class="date-content">
+                                    <div class="date-outer">
+                                        <span class="date">
+                                            <span class="month">1st Year</span>
+                                            <span class="year">2016</span>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="timeline-content">
+                                    <h5 class="title">First Year Modules</h5>
+                                    <p class="description"><b>Modules:</b> Business Technology, Database Management and
+                                        Reporting and Information System Development. </p>
                                 </div>
                             </div>
-                            <div class="timeline-content">
-                                <h5 class="title">Graduated</h5>
-                                <p class="description"><b>Graduated:</b> With a First-Class Honours in Computing Bsc. <b>Enrolled</b> on Code Institute's Full-Stack Software Development to Further Expand on Programming Skills During COVID-19 Lockdown. <b>Currently Employed</b> as A Technical Consultant </p>
+                            <!-- end experience section-->
+
+                            <!-- start experience section-->
+                            <div class="timeline">
+                                <div class="icon"></div>
+                                <div class="date-content">
+                                    <div class="date-outer">
+                                        <span class="date">
+                                            <span class="month">2nd Year</span>
+                                            <span class="year">2017</span>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="timeline-content">
+                                    <h5 class="title">Second Year Modules</h5>
+                                    <p class="description"><b>Modules:</b> Project Management and Development, Business
+                                        Intelligence, Interactive System Design and Evaluation, Introduction to
+                                        Research, Multimedia Development and Advanced Programming </p>
+                                </div>
+                            </div>
+                            <!-- end experience section-->
+
+                            <!-- start experience section-->
+                            <div class="timeline">
+                                <div class="icon"></div>
+                                <div class="date-content">
+                                    <div class="date-outer">
+                                        <span class="date">
+                                            <span class="month">Placement</span>
+                                            <span class="year">2018</span>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="timeline-content">
+                                    <h5 class="title">IT Support/Developer (Placement Year)</h5>
+                                    <p class="description"><b>Duties:</b> Provide First-Line Support to Existing Clients
+                                        In Regards To Software and Hardware Issues, Worked on Internal Software Projects
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- end experience section-->
+
+                            <!-- start experience section-->
+                            <div class="timeline">
+                                <div class="icon"></div>
+                                <div class="date-content">
+                                    <div class="date-outer">
+                                        <span class="date">
+                                            <span class="month">3rd Year</span>
+                                            <span class="year">2019</span>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="timeline-content">
+                                    <h5 class="title">Final Year</h5>
+                                    <p class="description"> <b>Modules:</b> Multi-Service Networks, Database Management
+                                        and Programing, System Building: Management (SDLC) and Computer Ethics and
+                                        Privacy. </p>
+                                </div>
+                            </div>
+                            <!-- end experience section-->
+                            <div class="timeline">
+                                <div class="icon"></div>
+                                <div class="date-content">
+                                    <div class="date-outer">
+                                        <span class="date">
+                                            <span class="month">Graduate</span>
+                                            <span class="year">2020</span>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="timeline-content">
+                                    <h5 class="title">Graduated</h5>
+                                    <p class="description"><b>Graduated:</b> With a First-Class Honours in Computing
+                                        Bsc. <b>Enrolled</b> on Code Institute's Full-Stack Software Development to
+                                        Further Expand on Programming Skills During COVID-19 Lockdown. <b>Currently
+                                            Employed</b> as A Technical Consultant </p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </div>
                     </div>
                 </div>
             </div>
-        </section>
-        <!--projects -->
-        <section id="projects-section" >
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-                <path
-                    fill="#51686A"
-                    fill-opacity="1"
-                    d="M0,192L40,176C80,160,160,128,240,144C320,160,400,224,480,224C560,224,640,160,720,160C800,160,880,224,960,208C1040,192,1120,96,1200,58.7C1280,21,1360,43,1400,53.3L1440,64L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"
-                ></path>
-            </svg>
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col">
-                        <h1 class="section-title">Projects</h1>
-                        <div class="card-deck">
+        </div>
+    </section>
+    <!--projects -->
+    <section id="projects-section">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#51686A" fill-opacity="1"
+                d="M0,192L40,176C80,160,160,128,240,144C320,160,400,224,480,224C560,224,640,160,720,160C800,160,880,224,960,208C1040,192,1120,96,1200,58.7C1280,21,1360,43,1400,53.3L1440,64L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z">
+            </path>
+        </svg>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <h1 class="section-title">Projects</h1>
+                    <div class="card-deck">
                         <div class="card">
                             <img class="card-img-top" src="assets/images/portfolio.png" alt="Card image cap">
                             <div class="card-body">
-                            <h5 class="card-title">Portfolio</h5>
-                            <p class="card-text">Front-End Project Utilizing HTML, CSS & Bootstrap to Display Previous Project's and Work Experience </p>
-                            <a href="https://github.com/shaff600/Portfolio"target="_blank"><button type="button" class="btn btn-secondary"> Source Code</button></a>
-                            <a href="https://shaff600.github.io/Portfolio/"target="_blank"><button type="button" class="btn btn-light">Live Site</button></a>
+                                <h5 class="card-title">Portfolio</h5>
+                                <p class="card-text">Front-End Project Utilizing HTML, CSS & Bootstrap to Display
+                                    Previous Project's and Work Experience </p>
+                                <a href="https://github.com/shaff600/Portfolio" target="_blank"><button type="button"
+                                        class="btn btn-secondary"> Source Code</button></a>
+                                <a href="https://shaff600.github.io/Portfolio/" target="_blank"><button type="button"
+                                        class="btn btn-light">Live Site</button></a>
 
                             </div>
                         </div>
                         <div class="card">
                             <img class="card-img-top" src="assets/images/ptwebsite.png" alt="Card image cap">
                             <div class="card-body">
-                            <h5 class="card-title">Personal Training </h5>
-                            <p class="card-text">4 Page Responsive Website With The Use of HTML, CSS and JavaScript.</p>
-                            <a href="https://github.com/shaff600/FrontEndWebDevWebsite"target="_blank"><button type="button" class="btn btn-secondary"> Source Code</button></a>
-                            <a href="https://shaff600.github.io/FrontEndWebDevWebsite/"target="_blank"><button type="button" class="btn btn-light">Live Site</button></a>
+                                <h5 class="card-title">Personal Training </h5>
+                                <p class="card-text">4 Page Responsive Website With The Use of HTML, CSS and JavaScript.
+                                </p>
+                                <a href="https://github.com/shaff600/FrontEndWebDevWebsite" target="_blank"><button
+                                        type="button" class="btn btn-secondary"> Source Code</button></a>
+                                <a href="https://shaff600.github.io/FrontEndWebDevWebsite/" target="_blank"><button
+                                        type="button" class="btn btn-light">Live Site</button></a>
                             </div>
                         </div>
                         <div class="card">
-                            <img class="card-img-top" src="assets/images/loverunning.png"alt="Card image cap">
+                            <img class="card-img-top" src="assets/images/loverunning.png" alt="Card image cap">
                             <div class="card-body">
-                            <h5 class="card-title">Love Running</h5>
-                            <p class="card-text">Responsive Website Using HTML and CSS. Mini Project From Code Institute.</p>
-                            <a href="https://github.com/shaff600/Love-Running-"target="_blank"><button type="button" class="btn btn-secondary"> Source Code</button></a>
-                            <a href="https://shaff600.github.io/FrontEndWebDevWebsite/"target="_blank"><button type="button" class="btn btn-light">Live Site</button></a>
+                                <h5 class="card-title">Love Running</h5>
+                                <p class="card-text">Responsive Website Using HTML and CSS. Mini Project From Code
+                                    Institute.</p>
+                                <a href="https://github.com/shaff600/Love-Running-" target="_blank"><button
+                                        type="button" class="btn btn-secondary"> Source Code</button></a>
+                                <a href="https://shaff600.github.io/FrontEndWebDevWebsite/" target="_blank"><button
+                                        type="button" class="btn btn-light">Live Site</button></a>
                             </div>
-                        </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-        <!--Testimonials  -->
-        <section id="testimonial-section">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-                <path
-                    fill="#C4D2D2"
-                    fill-opacity="1"
-                    d="M0,192L40,176C80,160,160,128,240,144C320,160,400,224,480,224C560,224,640,160,720,160C800,160,880,224,960,208C1040,192,1120,96,1200,58.7C1280,21,1360,43,1400,53.3L1440,64L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"
-                ></path>
-            </svg>
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-12">
-                        <h1 class="section-title">Testimonial</h1>
-                        <div class="bd-example">
+        </div>
+    </section>
+    <!--Testimonials  -->
+    <section id="testimonial-section">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#C4D2D2" fill-opacity="1"
+                d="M0,192L40,176C80,160,160,128,240,144C320,160,400,224,480,224C560,224,640,160,720,160C800,160,880,224,960,208C1040,192,1120,96,1200,58.7C1280,21,1360,43,1400,53.3L1440,64L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z">
+            </path>
+        </svg>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="section-title">Testimonial</h1>
+                   <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="carousel-caption">
+        
+        <p> <i class="fas fa-quote-left fa-2x"></i>  Shafyl is an amazing professional, who brings all of the skills and expertise in programming and systems support.
+        It was indeed a great pleasure working with Shafyl who was able to implement agile methodology such as SCRUM and provide sprint reports throughout development. <br>
+        Shafyl's contribution to our I.T Department led to the improvement of services that our company offers. I’m hopeful he’ll deliver ever more to other institutions as well.<i class="fas fa-quote-right fa-2x"> </i>  </p> 
+        <h3>Muhammad Ajij</h3>
+        <h7>Onvu Retail</h7>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="carousel-caption">
+       
+  <p> <i class="fas fa-quote-left fa-2x"></i>  The short time spent working with Shafyl allowed me to acknowledge his drive and passion for what he does. The immense level of dedication is applaudable as he brought a lot of great ideas into the company. He offered great support and showed excellent level of teamwork.
+Being trained by Shafyl I learnt a lot; he is a very confident and knowledgeable person as his technical skills are outstanding. He speaks with clarity therefore it was easy and comfortable to be trained by him. <i class="fas fa-quote-right fa-2x"> </i>  </p> 
+   <h3>Isha Arilal</h3>
+   <h7>Onvu Retail</h7>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="carousel-caption">
+       
+      <p> <i class="fas fa-quote-left fa-2x"></i>  It’s rare that you come across standout talent like Shafyl and was impressed by his drive and ambition during my time working with him. He was promoted after only 5 weeks and showcased customer service skills that went above and beyond the expected. I was particularly impressed by Shafyl’s technical ability that allowed him to handle even the toughest problems—effortlessly. As he is only a first year student, I know that is going to be improving even more during the common years.<i class="fas fa-quote-right fa-2x"> </i>  </p> 
+       <h3>Hibo Abdulrahman</h3>
+       <h7>Coventry University</h7>
+      </div>
+    </div>
+   
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+                   
+                   
+                    <!-- <div class="bd-example ">
                         <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
                             <ol class="carousel-indicators">
-                            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-                            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-                            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
                             </ol>
                             <div class="carousel">
                                 <div class="carousel-item active">
-                                    <div class="carousel-caption">
-                                        <p class="testimonial-info"> <i class="fas fa-quote-left fa-5x"></i> <br>  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries <br> <i class="fas fa-quote-right fa-5x"> </i></p>
+                                    <div class="carousel-caption none">
+                                        <p class="testimonial-info"> <i class="fas fa-quote-left fa-5x"></i> <br><br>
+                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                            Lorem Ipsum has been the industry's standard dummy text ever since the
+                                            1500s, when an unknown printer took a galley of type and scrambled it to
+                                            make a type specimen book. It has survived not only five centuries <br><br>
+                                            <i class="fas fa-quote-right fa-5x"> </i></p>
                                         <h5>Muhammed Ajij</h5>
-                                    <p>Product. Owner - Onvu Retail</p>
+                                        <p>Product. Owner - Onvu Retail</p>
                                     </div>
                                 </div>
                                 <div class="carousel-item">
-                                    <div class="carousel-caption">
-                                        <p class="testimonial-info"> <i class="fas fa-quote-left fa-5x"></i> <br>  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries <br> <i class="fas fa-quote-right fa-5x"> </i></p>
-                                    <h5>Muhammed Ajij</h5>
-                                    <p>Product. Owner - Onvu Retail</p>
+                                    <div class="carousel-caption none">
+                                        <p class="testimonial-info"> <i class="fas fa-quote-left fa-5x"></i> <br><br>
+                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                            Lorem Ipsum has been the industry's standard dummy text ever since the
+                                            1500s, when an unknown printer took a galley of type and scrambled it to
+                                            make a type specimen book. It has survived not only five centuries <br><br>
+                                            <i class="fas fa-quote-right fa-5x"> </i></p>
+                                        <h5>Muhammed Ajij</h5>
+                                        <p>Product. Owner - Onvu Retail</p>
                                     </div>
                                 </div>
                                 <div class="carousel-item">
-                                    <div class="carousel-caption">
-                                        <p class="testimonial-info"> <i class="fas fa-quote-left fa-5x"></i> <br>  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries <br> <i class="fas fa-quote-right fa-5x"> </i></p>
-                                    <h5>Muhammed Ajij</h5>
-                                    <p>Product. Owner - Onvu Retail</p>
+                                    <div class="carousel-caption none">
+                                        <p class="testimonial-info"> <i class="fas fa-quote-left fa-5x"></i> <br><br>
+                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                            Lorem Ipsum has been the industry's standard dummy text ever since the
+                                            1500s, when an unknown printer took a galley of type and scrambled it to
+                                            make a type specimen book. It has survived not only five centuries <br><br>
+                                            <i class="fas fa-quote-right fa-5x"> </i></p>
+                                        <h5>Muhammed Ajij</h5>
+                                        <p>Product. Owner - Onvu Retail</p>
                                     </div>
                                 </div>
                             </div>
-                            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button"
+                                data-slide="prev">
                                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                 <span class="sr-only">Previous</span>
                             </a>
-                            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button"
+                                data-slide="next">
                                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                 <span class="sr-only">Next</span>
                             </a>
                         </div>
-                        </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
-        </section>
-        
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-        <script>
-            $(window).scroll(function () {
-                $("nav").toggleClass("scrolled", $(this).scrollTop() > 215);
-            });
-        </script>
-    </body>
-    <footer>
+        </div>
+        </div>
+    </section>
 
-        © 2020 Copyright, Shafyl Choudhury
-    </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+    <script>
+        $(window).scroll(function () {
+            $("nav").toggleClass("scrolled", $(this).scrollTop() > 215);
+        });
+    </script>
+</body>
+<footer>
+
+    © 2020 Copyright, Shafyl Choudhury
+</footer>
+
 </html>
