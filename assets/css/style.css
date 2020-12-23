@@ -131,13 +131,33 @@ border-style: solid;
 .card-deck {
     transform: translateY(-390px);
     padding: 4%;
+  
+}
+#testimonial-section {
+     height: 140vh;
+     background-color: #BCBCBE;
+}
+
+.testimonial-info {
+    font-family: 'Andika New Basic', sans-serif;
+    text-align: justify;
+
    
+    transform: translateY(380px);
 }
 
+.carousel-indicators{
+       transform: translateY(300px);
 
- #testimonial-section {
-     height: 120vh;
 }
+.testimonial-ref{
+    margin-bottom: auto;
+}
+footer{
+       background-color: #BCBCBE;
+       text-align: center;
+}
+
  .timeline-heading {
      font-family: "AzonixRegular";
      color: #ffffff;
@@ -482,7 +502,23 @@ border-style: solid;
     transform: translateY(-34px);
     transform: translateX(13px);
     text-align: center;
-   
-   
 }
+    .testimonial-info {
+        font-family: 'Andika New Basic', sans-serif;
+        text-align: center;
+        color: #ffffff;
+        font-size: 3.1vw;
+        margin: 8px;
+}
+
+    .fa-quote-left {
+        display: none;
+    }
+        .fa-quote-right {
+        display: none;
+    }
+      #testimonial-section  {
+             height:75vh;  
+
+      }
 }
