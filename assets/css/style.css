@@ -632,14 +632,14 @@
      }
  }
  /* small devices */
-@media (min-width: 320px) and (max-width: 359px){ 
+@media (min-width: 320px) and (max-width: 480px){ 
     .section-title {
          font-family: "AzonixRegular";
          color: #ffffff;
-         text-align: justify;
+         font-size: 10vw;
          text-align: center;
          transform: translateY(-14px);
-         transform: translateX(-50px);
+         transform: translateX(-14px);
          margin-bottom: -42px;
      }
 
@@ -665,7 +665,7 @@
      }
 
      .aboutme-info {
-         font-size: 4vw;
+         font-size: 2vw;
          margin-top: 20px;
          text-align: justify;
          padding: 1rem 1rem 2rem 1rem;
@@ -738,7 +738,7 @@
      }
 
  #testimonial-section {
-         height: 90vh;
+         height: 70vh;
      }
 
      .fa-quote-left {
@@ -750,7 +750,7 @@
      }
 
      .carousel-caption {
-         font-size: 3vw;
+         font-size: 2vw;
          color: #ffffff;
      }
 
@@ -808,7 +808,7 @@
      }
 
      #aboutme-section {
-         height: 350vh;
+         height: 370vh;
      }
 
      .aboutme-title {
@@ -865,7 +865,7 @@
      }
 
      #projects-section {
-         height: 190vh;
+         height: 200vh;
      }
 
      .card-deck {
@@ -883,7 +883,7 @@
      }
 
      .carousel-caption {
-         font-size: 4vw;
+         font-size: 3vw;
          color: #ffffff;
      }
 
@@ -898,7 +898,7 @@
      }
 
  }
-
+/* small screens, laptops */
  @media (min-width: 768px) and (max-width: 1023px){
 
      /* For ipad layouts */
@@ -913,7 +913,7 @@
      }
 
      #background-landing {
-         height: 55vh;
+         height: 50vh;
      }
 
      .landing-image {
@@ -1002,7 +1002,6 @@
          margin-top: 0px;
          text-align: center;
          font-size: 2vw;
-         
          padding: 5%;
      }
 
@@ -1033,5 +1032,78 @@
          transform: translateY(80px);
      }
     }
+    /* desktop large scr */
+@media (min-width: 1024px) and (max-width: 1200px)
+{
+    .section-title {
+         font-family: "AzonixRegular";
+         color: #ffffff;
+         text-align: justify;
+         text-align: center;
+         transform: translateY(-14px);
+         transform: translateX(-14px);
+         margin-bottom: -42px;
+     }
 
+.aboutme-title {
+    font-family: "AzonixRegular";
+    color: #ffffff;
+    text-align: left;
+    margin-left: 101px;
+    margin-top: -92px;
+    margin-bottom: 51px;
+}
+  #background-landing {
+         height: 45vh;
+     }
+     #aboutme-section {
+         height: 120vh;
+     }
+     .main-timeline{
+        transform: translateY(-111px)
+     }
+         #projects-section {
+         height: 70vh;
+     }
+     .card-deck {
+         margin-top: 0px;
+         text-align: center;
+         font-size: 2vw;
+         padding: 5%;
+     }
+      #testimonial-section {
+         height: 60vh;
+     }
+     .navbar-collapse {
+         width: 100%;
+     }
+
+     .nav-item {
+         background-color: black;
+         width: 130%;
+         text-align: center;
+     }
+
+     ul {
+         text-align: center;
+         width: 100%;
+         margin: 0;
+     }
+
+     .navbar-toggler {
+         left: 70%;
+         position: absolute;
+     }
+
+     .fa-bars {
+         right: 50%;
+         color: #ffffff;
+         position: relative;
+         text-align: center;
+         z-index: 9998 !important;
+     }
+
+
+
+}
  
