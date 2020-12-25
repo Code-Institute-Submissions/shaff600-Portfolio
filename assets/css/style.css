@@ -97,6 +97,48 @@
      background: #012D32;
      opacity: 0.8;
  }
+ /* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+.icon-bar {
+  position: fixed;
+  top: 45%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* Style the icon bar links */
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+/* Style the social media icons with color, if you want */
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.github {
+  background: #012D32;
+  color: white;
+}
+
+.twitter {
+  background: #012D32;
+  color: white;
+}
+
+
+
+.linkedin {
+  background: #012D32;
+  color: white;
+}
+
+
 
  .section-title {
      font-family: "AzonixRegular";
@@ -232,8 +274,13 @@
  }
 
  footer {
-     background-color: #BCBCBE;
+     background-color: #012E32;
+     color: #ffffff;
      text-align: center;
+     
+ }
+ #socials{
+     display: none;
  }
 
  /* Timeline stylying including media query - snippet taken from Bootdey */
@@ -530,7 +577,6 @@
          text-align: center;
          transform: translateY(-14px);
          transform: translateX(-14px);
-
          margin-bottom: -42px;
      }
      .cv-button {
@@ -538,6 +584,19 @@
     height: 59%;
     width: 110px;
 }
+    .icon-bar{
+        display: none;
+    }
+    #socials {
+        display: contents;
+        font-size: 6vw;
+        padding: 20%;
+       
+    }
+    footer {
+        font-size: 3vw;
+        position: relative;
+    }
 
      #background-landing {
          height: 100vh;
@@ -610,6 +669,12 @@
          position: relative;
          z-index: 9998 !important;
      }
+     .navbar-brand {
+    transform: translateX(-70px);
+     font-family: "AzonixRegular";
+     text-decoration: none;
+
+ }
      .main-timeline {
          position: relative;
          transform: translateY(-30px);
@@ -637,6 +702,7 @@
          font-size: 4vw;
          color: #ffffff;
      }
+     
 
      .carousel-control-prev {
          transform: translateY(80px);
@@ -663,6 +729,19 @@
     height: 59%;
     width: 110px;
 }
+.icon-bar{
+        display: none;
+    }
+    #socials {
+        display: contents;
+        font-size: 6vw;
+        padding: 20%;
+       
+    }
+    footer {
+        font-size: 3vw;
+        position: relative;
+    }
 
      #background-landing {
          height: 90vh;
@@ -726,9 +805,15 @@
      }
 
      .navbar-toggler {
-         left: 30%;
+         left: 42%;
          position: absolute;
      }
+        .navbar-brand {
+    transform: translateX(-70px);
+     font-family: "AzonixRegular";
+     text-decoration: none;
+
+ }
 
      .fa-bars {
 
@@ -805,6 +890,19 @@
     height: 59%;
     width: 110px;
 }
+.icon-bar{
+        display: none;
+    }
+    #socials {
+        display: contents;
+        font-size: 6vw;
+        padding: 20%;
+       
+    }
+    footer {
+        font-size: 3vw;
+        position: relative;
+    }
 
      #background-landing {
          height: 80vh;
@@ -939,6 +1037,19 @@
          transform: translateX(-14px);
          margin-bottom: -42px;
      }
+     .icon-bar{
+        display: none;
+    }
+    #socials {
+        display: contents;
+        font-size: 6vw;
+        padding: 20%;
+       
+    }
+    footer {
+        font-size: 3vw;
+        position: relative;
+    }
 
      #background-landing {
          height: 50vh;
@@ -1010,6 +1121,12 @@
          left: 70%;
          position: absolute;
      }
+        .navbar-brand {
+    transform: translateX(-70px);
+     font-family: "AzonixRegular";
+     text-decoration: none;
+
+ }
 
      .fa-bars {
          right: 50%;
