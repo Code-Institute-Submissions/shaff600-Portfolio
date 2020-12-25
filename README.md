@@ -2,7 +2,7 @@
 
 ## Table of Contents
 
-- [Purpose] (#-Purpose)
+- [Purpose] (#purpose)
 
 ## Purpose
  - Demonstrate Previous Development Work
