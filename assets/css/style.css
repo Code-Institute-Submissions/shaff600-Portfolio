@@ -1,1266 +1,1019 @@
  @import url('https://fonts.googleapis.com/css2?family=Andika+New+Basic&display=swap');
-
  @font-face {
-     font-family: 'AzonixRegular';
-     src: url('AzonixRegular.eot'), url('../fonts/AzonixRegular.eot?#iefix') format('embedded-opentype'), url('../fonts/AzonixRegular.woff2') format('woff2'), url('../fonts/AzonixRegular.woff') format('woff'), url('../fonts/AzonixRegular.ttf') format('truetype'), url('../fonts/AzonixRegular.svg#AzonixRegular') format('svg');
-     font-weight: normal;
-     font-style: normal;
-     font-display: swap;
+ 	font-family: 'AzonixRegular';
+ 	src: url('AzonixRegular.eot'), url('../fonts/AzonixRegular.eot?#iefix') format('embedded-opentype'), url('../fonts/AzonixRegular.woff2') format('woff2'), url('../fonts/AzonixRegular.woff') format('woff'), url('../fonts/AzonixRegular.ttf') format('truetype'), url('../fonts/AzonixRegular.svg#AzonixRegular') format('svg');
+ 	font-weight: normal;
+ 	font-style: normal;
+ 	font-display: swap;
  }
-
  * {
-     margin: 0 auto;
-     padding: 0;
+ 	margin: 0 auto;
+ 	padding: 0;
  }
-
  header {
-     margin: 0;
+ 	margin: 0;
  }
-
  body,
  html {
-     height: 100%;
+ 	height: 100%;
  }
-
  nav {
-     height: 9%;
+ 	height: 9%;
  }
-
  .nav-link {
-     padding: 0px;
-     margin: 20px;
-     height: 45%;
+ 	padding: 0px;
+ 	margin: 20px;
+ 	height: 45%;
  }
-
  .nav-item:hover {
-     color: #ff0000 !important;
-     text-decoration-color: #E18728
+ 	color: #ff0000 !important;
+ 	text-decoration-color: #E18728
  }
-
  .navbar-float-right {
-     right: 0px;
-     position: fixed;
-     top: 0px;
-     margin-right: 100px;
+ 	right: 0px;
+ 	position: fixed;
+ 	top: 0px;
+ 	margin-right: 100px;
  }
-
  .navbar-brand {
-     margin-left: 100px;
-     font-family: "AzonixRegular";
-     text-decoration: none;
-
+ 	margin-left: 100px;
+ 	font-family: "AzonixRegular";
+ 	text-decoration: none;
  }
-
  #logo {
-     color: #ffffff;
-
+ 	color: #ffffff;
  }
-
-
-
  a {
-     color: #ffffff;
+ 	color: #ffffff;
  }
-
  .nav-link:hover {
-     display: inline-block;
-     border-bottom: 1px solid black;
-     padding-bottom: 2px;
-     color: #6C757D;
+ 	display: inline-block;
+ 	border-bottom: 1px solid black;
+ 	padding-bottom: 2px;
+ 	color: #6C757D;
  }
-
-.cv-button {
-    margin: 13%;
-    height: 59%;
-    width: 110px;
-}
-
+ .cv-button {
+ 	margin: 13%;
+ 	height: 59%;
+ 	width: 110px;
+ }
  .cv-button:hover {
-     background-color: #51686A;
-     cursor: pointer;
-
-       text-decoration: none;
-     
+ 	background-color: #51686A;
+ 	cursor: pointer;
+ 	text-decoration: none;
  }
-
  .cv-button:active {
-     transform: translateY(10px);
-       border-bottom: none;
+ 	transform: translateY(10px);
+ 	border-bottom: none;
  }
-
  .bg-dark {
-     background: #012D32 !important;
-     transition: 2.0 ease;
+ 	background: #012D32 !important;
  }
-
  .bg-dark.scrolled {
-     background: #012D32;
-     opacity: 0.8;
+ 	background: #012D32;
+ 	opacity: 0.8;
  }
  /* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
-.icon-bar {
-  position: fixed;
-  top: 45%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
-
-/* Style the icon bar links */
-.icon-bar a {
-  display: block;
-  text-align: center;
-  padding: 16px;
-  transition: all 0.3s ease;
-  color: white;
-  font-size: 20px;
-}
-
-/* Style the social media icons with color, if you want */
-.icon-bar a:hover {
-  background-color: #000;
-}
-
-.github {
-  background: #012D32;
-  color: white;
-}
-
-.twitter {
-  background: #012D32;
-  color: white;
-}
-
-
-
-.linkedin {
-  background: #012D32;
-  color: white;
-}
-
-
-
+ .icon-bar {
+ 	position: fixed !important; ;
+ 	top: 45%;
+ 	-webkit-transform: translateY(-50%);
+ 	-ms-transform: translateY(-50%);
+ 	transform: translateY(-50%);
+ }
+ /* Style the icon bar links */
+ .icon-bar a {
+ 	display: block;
+ 	text-align: center;
+ 	padding: 16px;
+ 	transition: all 0.3s ease;
+ 	color: white;
+ 	font-size: 20px;
+ }
+ /* Style the social media icons with color, if you want */
+ .icon-bar a:hover {
+ 	background-color: #000;
+ }
+ .github {
+ 	background: #012D32;
+ 	color: white;
+ }
+ .twitter {
+ 	background: #012D32;
+ 	color: white;
+ }
+ .linkedin {
+ 	background: #012D32;
+ 	color: white;
+ }
  .section-title {
-     font-family: "AzonixRegular";
-     transform: translateY(-210px);
-     padding: 3%;
-     margin-left: 40px;
-     color: #ffffff;
+ 	font-family: "AzonixRegular";
+ 	transform: translateY(-210px);
+ 	padding: 3%;
+ 	margin-left: 40px;
+ 	color: #ffffff;
  }
-
  .landing-info {
-     font-family: 'Andika New Basic', sans-serif;
-     color: #ffffff;
-     text-align: center;
-     font-size: 1.1rem;
-     margin-top: -25px;
-
+ 	font-family: 'Andika New Basic', sans-serif;
+ 	color: #ffffff;
+ 	text-align: center;
+ 	font-size: 1.1rem;
+ 	margin-top: -25px;
  }
-
  .landing-image {
-     display: flex;
-     align-items: center;
+ 	display: flex;
+ 	align-items: center;
      margin-top: -50px;
-
+   left: 0%;
  }
-
  #background-landing {
-     height: 80vh;
-     background-color: #012C32;
+ 	height: 80vh;
+ 	background-color: #012C32;
  }
-
  #landing-header {
-     transform: translateY(300px);
+ 	transform: translateY(300px);
  }
-
  .section-heading {
-     font-family: "AzonixRegular";
-     color: #ffffff;
-     text-align: center;
-     margin: 5%;
-     transform: translateY(-10px);
+ 	font-family: "AzonixRegular";
+ 	color: #ffffff;
+ 	text-align: center;
+ 	margin: 5%;
+ 	transform: translateY(-10px);
  }
-
  #aboutme-section {
-     height: 110vh;
-     background-color: #51696B;
+ 	height: 110vh;
+ 	background-color: #51696B;
  }
-
  .aboutme-title {
-     font-family: "AzonixRegular";
-     color: #ffffff;
-     text-align: left;
-     margin-left: 100px;
-     margin-top: -130px;
-     margin-bottom: 75px;
+ 	font-family: "AzonixRegular";
+ 	color: #ffffff;
+ 	text-align: left;
+ 	margin-left: 100px;
+ 	margin-top: -130px;
+ 	margin-bottom: 75px;
  }
-
  .aboutme-info {
-     font-family: 'Andika New Basic', sans-serif;
-     padding: 4%;
-     text-align: justify;
-     margin-top: -130px;
-     padding: 100px;
-     ;
+ 	font-family: 'Andika New Basic', sans-serif;
+ 	padding: 4%;
+ 	text-align: justify;
+ 	margin-top: -130px;
+ 	padding: 100px;
+ 	;
  }
-
  .aboutme {
-     margin-top: 10px;
+ 	margin-top: 10px;
  }
-
  #projects-section {
-     height: 100vh;
-     background-color: #c5d2d2;
+ 	height: 100vh;
+ 	background-color: #c5d2d2;
  }
-
  .card {
-     background-color: #C4D2D2;
-     border-style: solid;
-     border-width: medium;
-     margin: 10%;
+ 	background-color: #C4D2D2;
+ 	border-style: solid;
+ 	border-width: medium;
+ 	margin: 10%;
  }
-
  .card-deck {
-     margin-top: -350px;
-     padding: 4%;
-
+ 	margin-top: -350px;
+ 	padding: 4%;
  }
-
  #testimonial-section {
-     height: 100vh;
-     background-color: #012D32;
+ 	height: 100vh;
+ 	background-color: #012D32;
  }
-
- /* .carousel-caption {
-
-   
-
- } */
 
  .testimonial-info {
-     font-family: 'Andika New Basic', sans-serif;
-     margin-bottom: 5%;
-     margin-top: -220px;
-
+ 	font-family: 'Andika New Basic', sans-serif;
+ 	margin-bottom: 5%;
+ 	margin-top: -220px;
  }
-
  .carousel {
-     margin-top: 50px;
+ 	margin-top: 50px;
  }
-
  .carousel-inner {
-     height: 450px;
+ 	height: 450px;
  }
-
  .carousel-caption {
-     font-family: 'Andika New Basic', sans-serif;
-     color: #ffffff;
-     top: 50%;
-     font-size: 1.1rem;
-
+ 	font-family: 'Andika New Basic', sans-serif;
+ 	color: #ffffff;
+ 	top: 50%;
+ 	font-size: 1.1rem;
  }
-
  h3 {
-     font-family: 'Andika New Basic', sans-serif;
-     color: #ffffff;
+ 	font-family: 'Andika New Basic', sans-serif;
+ 	color: #ffffff;
  }
-
  .carousel-control-prev {
-     margin-top: -300px;
+ 	margin-top: -300px;
  }
-
  .carousel-control-next {
-     margin-top: -300px;
+ 	margin-top: -300px;
  }
-
  footer {
-     background-color: #012E32;
-     color: #ffffff;
-     text-align: center;
-     
+ 	background-color: #012E32;
+ 	color: #ffffff;
+ 	text-align: center;
  }
- #socials{
-     display: none;
+ #socials {
+ 	display: none;
  }
-
  /* Timeline stylying including media query - snippet taken from Bootdey */
  .timeline-heading {
-     font-family: "AzonixRegular";
-     color: #ffffff;
-     text-align: right;
-     transform: translateY(-170px);
-     margin-right: 100px;
+ 	font-family: "AzonixRegular";
+ 	color: #ffffff;
+ 	text-align: right;
+ 	transform: translateY(-170px);
+ 	margin-right: 100px;
  }
-
  .timeline-info {
-     font-family: 'Andika New Basic', sans-serif;
-     color: #ffffff;
-     text-align: center;
-     font-size: 1.1rem;
-     transform: translateY(-80px);
+ 	font-family: 'Andika New Basic', sans-serif;
+ 	color: #ffffff;
+ 	text-align: center;
+ 	font-size: 1.1rem;
+ 	transform: translateY(-80px);
  }
-
  .main-timeline {
-     position: relative;
-     transform: translateY(-200px);
+ 	position: relative;
+ 	transform: translateY(-200px);
  }
-
  .main-timeline:before {
-     content: "";
-     display: block;
-     width: 2px;
-     height: 100%;
-     background: #c6c6c6;
-     margin: 0 auto;
-     position: absolute;
-     top: 0;
-     left: 0;
-     right: 0
+ 	content: "";
+ 	display: block;
+ 	width: 2px;
+ 	height: 100%;
+ 	background: #c6c6c6;
+ 	margin: 0 auto;
+ 	position: absolute;
+ 	top: 0;
+ 	left: 0;
+ 	right: 0
  }
-
  .main-timeline .timeline {
-     margin-bottom: 0px;
-     position: relative;
-     transform: translateY(44px);
+ 	margin-bottom: 0px;
+ 	position: relative;
+ 	transform: translateY(44px);
  }
-
  .main-timeline .timeline:after {
-     content: "";
-     display: block;
-     clear: both
+ 	content: "";
+ 	display: block;
+ 	clear: both
  }
-
  .main-timeline .icon {
-     width: 18px;
-     height: 18px;
-     line-height: 1px;
-     margin: auto;
-     position: absolute;
-     top: 0;
-     left: 0;
-     bottom: 0;
-     right: 0
+ 	width: 18px;
+ 	height: 18px;
+ 	line-height: 1px;
+ 	margin: auto;
+ 	position: absolute;
+ 	top: 0;
+ 	left: 0;
+ 	bottom: 0;
+ 	right: 0
  }
-
  .main-timeline .icon:before,
  .main-timeline .icon:after {
-     content: "";
-     width: 100%;
-     height: 100%;
-     border-radius: 50%;
-     position: absolute;
-     top: 0;
-     left: 0;
-     transition: all 0.33s ease-out 0s
+ 	content: "";
+ 	width: 100%;
+ 	height: 100%;
+ 	border-radius: 50%;
+ 	position: absolute;
+ 	top: 0;
+ 	left: 0;
+ 	transition: all 0.33s ease-out 0s
  }
-
  .main-timeline .icon:before {
-     background: #fff;
-     border: 2px solid #232323;
-     left: -3px
+ 	background: #fff;
+ 	border: 2px solid #232323;
+ 	left: -3px
  }
-
  .main-timeline .icon:after {
-     border: 2px solid #c6c6c6;
-     left: 3px
+ 	border: 2px solid #c6c6c6;
+ 	left: 3px
  }
-
  .main-timeline .timeline:hover .icon:before {
-     left: 3px
+ 	left: 3px
  }
-
  .main-timeline .timeline:hover .icon:after {
-     left: -3px
+ 	left: -3px
  }
-
  .main-timeline .date-content {
-     width: 50%;
-     float: left;
-     margin-top: 22px;
-     position: relative
+ 	width: 50%;
+ 	float: left;
+ 	margin-top: 22px;
+ 	position: relative
  }
-
  .main-timeline .date-content:before {
-     content: "";
-     width: 36.5%;
-     height: 2px;
-     background: #c6c6c6;
-     margin: auto 0;
-     position: absolute;
-     top: 0;
-     right: 10px;
-     bottom: 0
+ 	content: "";
+ 	width: 36.5%;
+ 	height: 2px;
+ 	background: #c6c6c6;
+ 	margin: auto 0;
+ 	position: absolute;
+ 	top: 0;
+ 	right: 10px;
+ 	bottom: 0
  }
-
  .main-timeline .date-outer {
-     width: 125px;
-     height: 125px;
-     font-size: 16px;
-     text-align: center;
-     margin: auto;
-     z-index: 1
+ 	width: 125px;
+ 	height: 125px;
+ 	font-size: 16px;
+ 	text-align: center;
+ 	margin: auto;
+ 	z-index: 1
  }
-
  .main-timeline .date-outer:before,
  .main-timeline .date-outer:after {
-     content: "";
-     width: 125px;
-     height: 125px;
-     margin: 0 auto;
-     border-radius: 50%;
-     position: absolute;
-     top: 0;
-     left: 0;
-     right: 0;
-     transition: all 0.33s ease-out 0s
+ 	content: "";
+ 	width: 125px;
+ 	height: 125px;
+ 	margin: 0 auto;
+ 	border-radius: 50%;
+ 	position: absolute;
+ 	top: 0;
+ 	left: 0;
+ 	right: 0;
+ 	transition: all 0.33s ease-out 0s
  }
-
  .main-timeline .date-outer:before {
-     background: #fff;
-     border: 2px solid #232323;
-     left: -6px
+ 	background: #fff;
+ 	border: 2px solid #232323;
+ 	left: -6px
  }
-
  .main-timeline .date-outer:after {
-     border: 2px solid #c6c6c6;
-     left: 6px
+ 	border: 2px solid #c6c6c6;
+ 	left: 6px
  }
-
  .main-timeline .timeline:hover .date-outer:before {
-     left: 6px
+ 	left: 6px
  }
-
  .main-timeline .timeline:hover .date-outer:after {
-     left: -6px
+ 	left: -6px
  }
-
  .main-timeline .date {
-     width: 100%;
-     margin: auto;
-     position: absolute;
-     top: 27%;
-     left: 0
+ 	width: 100%;
+ 	margin: auto;
+ 	position: absolute;
+ 	top: 27%;
+ 	left: 0
  }
-
  .main-timeline .month {
-     font-size: 18px;
-     font-weight: 700
+ 	font-size: 18px;
+ 	font-weight: 700
  }
-
  .main-timeline .year {
-     display: block;
-     font-size: 30px;
-     font-weight: 700;
-     color: #232323;
-     line-height: 36px
+ 	display: block;
+ 	font-size: 30px;
+ 	font-weight: 700;
+ 	color: #232323;
+ 	line-height: 36px
  }
-
  .main-timeline .timeline-content {
-     width: 50%;
-     padding: 0 0 0 50px;
-     float: right
+ 	width: 50%;
+ 	padding: 0 0 0 50px;
+ 	float: right
  }
-
  .main-timeline .title {
-     font-size: 19px;
-     font-weight: 700;
-     line-height: 24px;
-     margin: 0 0 15px 0
+ 	font-size: 19px;
+ 	font-weight: 700;
+ 	line-height: 24px;
+ 	margin: 0 0 15px 0
  }
-
  .main-timeline .description {
-     margin-bottom: 0
+ 	margin-bottom: 0
  }
-
  .main-timeline .timeline:nth-child(2n) .date-content {
-     float: right
+ 	float: right
  }
-
  .main-timeline .timeline:nth-child(2n) .date-content:before {
-     left: 10px
+ 	left: 10px
  }
-
  .main-timeline .timeline:nth-child(2n) .timeline-content {
-     padding: 20px 50px 20px 0;
-     text-align: right
+ 	padding: 20px 50px 20px 0;
+ 	text-align: right
  }
-
  @media only screen and (max-width: 991px) {
-     .main-timeline .date-content {
-         margin-top: 35px
-     }
-
-     .main-timeline .date-content:before {
-         width: 22.5%
-     }
-
-     .main-timeline .timeline-content {
-         padding: 10px 0 10px 30px
-     }
-
-     .main-timeline .title {
-         font-size: 17px
-     }
-
-     .main-timeline .timeline:nth-child(2n) .timeline-content {
-         padding: 10px 30px 10px 0
-     }
+ 	.main-timeline .date-content {
+ 		margin-top: 35px
+ 	}
+ 	.main-timeline .date-content:before {
+ 		width: 22.5%
+ 	}
+ 	.main-timeline .timeline-content {
+ 		padding: 10px 0 10px 30px
+ 	}
+ 	.main-timeline .title {
+ 		font-size: 17px
+ 	}
+ 	.main-timeline .timeline:nth-child(2n) .timeline-content {
+ 		padding: 10px 30px 10px 0
+ 	}
  }
-
  @media only screen and (max-width: 768px) {
-     .main-timeline:before {
-         margin: 0;
-         left: 7px
-     }
-
-     .main-timeline .timeline {
-         margin-bottom: 20px
-     }
-
-     .main-timeline .timeline:last-child {
-         margin-bottom: 0
-     }
-
-     .main-timeline .icon {
-         margin: auto 0
-     }
-
-     .main-timeline .date-content {
-         width: 95%;
-         float: right;
-         margin-top: 0
-     }
-
-     .main-timeline .date-content:before {
-         display: none
-     }
-
-     .main-timeline .date-outer {
-         width: 110px;
-         height: 110px
-     }
-
-     .main-timeline .date-outer:before,
-     .main-timeline .date-outer:after {
-         width: 110px;
-         height: 110px
-     }
-
-     .main-timeline .date {
-         top: 30%
-     }
-
-     .main-timeline .year {
-         font-size: 24px
-     }
-
-     .main-timeline .timeline-content,
-     .main-timeline .timeline:nth-child(2n) .timeline-content {
-         width: 95%;
-         text-align: center;
-         padding: 10px;
-     }
-
-     .main-timeline .title {
-         margin-bottom: 10px;
-     }
+ 	.main-timeline:before {
+ 		margin: 0;
+ 		left: 7px
+ 	}
+ 	.main-timeline .timeline {
+ 		margin-bottom: 20px
+ 	}
+ 	.main-timeline .timeline:last-child {
+ 		margin-bottom: 0
+ 	}
+ 	.main-timeline .icon {
+ 		margin: auto 0
+ 	}
+ 	.main-timeline .date-content {
+ 		width: 95%;
+ 		float: right;
+ 		margin-top: 0
+ 	}
+ 	.main-timeline .date-content:before {
+ 		display: none
+ 	}
+ 	.main-timeline .date-outer {
+ 		width: 110px;
+ 		height: 110px
+ 	}
+ 	.main-timeline .date-outer:before,
+ 	.main-timeline .date-outer:after {
+ 		width: 110px;
+ 		height: 110px
+ 	}
+ 	.main-timeline .date {
+ 		top: 30%
+ 	}
+ 	.main-timeline .year {
+ 		font-size: 24px
+ 	}
+ 	.main-timeline .timeline-content,
+ 	.main-timeline .timeline:nth-child(2n) .timeline-content {
+ 		width: 95%;
+ 		text-align: center;
+ 		padding: 10px;
+ 	}
+ 	.main-timeline .title {
+ 		margin-bottom: 10px;
+ 	}
  }
-
  /* END OF TIMELINE STYLING */
  /* ##Device = Galaxy s5/MotoG4 ##Screen = B/w 360px to 479px */
  @media (min-width: 340px) and (max-width: 410px) {
-
-     .section-title {
-         font-family: "AzonixRegular";
-         color: #ffffff;
-         text-align: justify;
-         text-align: center;
-         transform: translateY(-14px);
-         transform: translateX(-14px);
-         margin-bottom: -42px;
-     }
-     .cv-button {
-    margin: 8%;
-    height: 59%;
-    width: 110px;
-}
-    .icon-bar{
-        display: none;
-    }
-    #socials {
-        display: contents;
-        font-size: 6vw;
-        padding: 20%;
-       
-    }
-    footer {
-        font-size: 3vw;
-        position: relative;
-    }
-
-     #background-landing {
-         height: 100vh;
-     }
-
-     .landing-image {
-         transform: translateX(10px);
-         transform: translateY(-10px);
-         padding: 23px;
-         width: 90%;
-     }
-
-     #landing-header {
-         transform: translateY(100px);
-         text-align: center;
-     }
-
-     .landing-info {
-         font-size: 4vw;
-         margin-top: auto;
-     }
-
-     .aboutme-info {
-         font-size: 4vw;
-         margin-top: 50px;
-         text-align: justify;
-         padding: 1rem 1rem 2rem 1rem;
-     }
-
-     #aboutme-section {
-         height: 440vh;
-     }
-
-     .aboutme-title {
-         font-family: "AzonixRegular";
-         color: #ffffff;
-         text-align: left;
-         transform: translateY(95px);
-         margin-left: 55px;
-         margin-bottom: 110px;
-     }
-
-     .aboutme-sec {
-         margin-top: -100px;
-     }
-
-     .navbar-collapse {
-         width: 100%;
-     }
-
-     .nav-item {
-         background-color: black;
-         width: 150%;
-     }
-
-     ul {
-         text-align: center;
-         width: 100%;
-         margin: 0;
-     }
-
-     .navbar-toggler {
-         left: 40%;
-         position: absolute;
-     }
-
-     .fa-bars {
-         right: 50%;
-         color: #ffffff;
-         position: relative;
-         z-index: 9998 !important;
-     }
-     .navbar-brand {
-    transform: translateX(-70px);
-     font-family: "AzonixRegular";
-     text-decoration: none;
-
+ 	.section-title {
+ 		font-family: "AzonixRegular";
+ 		color: #ffffff;
+ 		text-align: justify;
+ 		text-align: center;
+ 		transform: translateY(-14px);
+ 		transform: translateX(-14px);
+ 		margin-bottom: -42px;
+ 	}
+ 	.cv-button {
+ 		margin: 8%;
+ 		height: 59%;
+ 		width: 110px;
+ 	}
+ 	.icon-bar {
+ 		display: none;
+ 	}
+ 	#socials {
+ 		display: contents;
+ 		font-size: 6vw;
+ 		padding: 20%;
+ 	}
+ 	footer {
+ 		font-size: 3vw;
+ 		position: relative;
+ 	}
+ 	#background-landing {
+ 		height: 100vh;
+ 	}
+ 	.landing-image {
+ 		transform: translateX(10px);
+ 		transform: translateY(-10px);
+ 		padding: 23px;
+ 		width: 90%;
+ 	}
+ 	#landing-header {
+ 		transform: translateY(100px);
+ 		text-align: center;
+ 	}
+ 	.landing-info {
+ 		font-size: 4vw;
+ 		margin-top: auto;
+ 	}
+ 	.aboutme-info {
+ 		font-size: 4vw;
+ 		margin-top: 50px;
+ 		text-align: justify;
+ 		padding: 1rem 1rem 2rem 1rem;
+ 	}
+ 	#aboutme-section {
+ 		height: 440vh;
+ 	}
+ 	.aboutme-title {
+ 		font-family: "AzonixRegular";
+ 		color: #ffffff;
+ 		text-align: left;
+ 		transform: translateY(95px);
+ 		margin-left: 55px;
+ 		margin-bottom: 110px;
+ 	}
+ 	.aboutme-sec {
+ 		margin-top: -100px;
+ 	}
+ 	.navbar-collapse {
+ 		width: 100%;
+ 	}
+ 	.nav-item {
+ 		background-color: black;
+ 		width: 150%;
+ 	}
+ 	ul {
+ 		text-align: center;
+ 		width: 100%;
+ 		margin: 0;
+ 	}
+ 	.navbar-toggler {
+ 		left: 40%;
+ 		position: absolute;
+ 	}
+ 	.fa-bars {
+ 		right: 50%;
+ 		color: #ffffff;
+ 		position: relative;
+ 		z-index: 9998 !important;
+ 	}
+ 	.navbar-brand {
+ 		transform: translateX(-70px);
+ 		font-family: "AzonixRegular";
+ 		text-decoration: none;
+ 	}
+ 	.main-timeline {
+ 		position: relative;
+ 		transform: translateY(-30px);
+ 	}
+ 	#projects-section {
+ 		height: 240vh;
+ 	}
+ 	.card-deck {
+ 		margin-top: 0px;
+ 		text-align: center;
+ 		font-size: 4vw;
+ 	}
+ 	.fa-quote-left {
+ 		display: none;
+ 	}
+ 	.fa-quote-right {
+ 		display: none;
+ 	}
+ 	.carousel-caption {
+ 		font-size: 4vw;
+ 		color: #ffffff;
+ 	}
+ 	.carousel-control-prev {
+ 		transform: translateY(80px);
+ 	}
+ 	.carousel-control-next {
+ 		transform: translateY(80px);
+ 	}
  }
-     .main-timeline {
-         position: relative;
-         transform: translateY(-30px);
-     }
-
-     #projects-section {
-         height: 240vh;
-     }
-
-     .card-deck {
-         margin-top: 0px;
-         text-align: center;
-         font-size: 4vw;
-     }
-
-     .fa-quote-left {
-         display: none;
-     }
-
-     .fa-quote-right {
-         display: none;
-     }
-
-     .carousel-caption {
-         font-size: 4vw;
-         color: #ffffff;
-     }
-     
-
-     .carousel-control-prev {
-         transform: translateY(80px);
-     }
-
-     .carousel-control-next {
-         transform: translateY(80px);
-     }
- }
-
  /* small devices */
  @media (min-width: 320px) and (max-width: 480px) {
-     .section-title {
-         font-family: "AzonixRegular";
-         color: #ffffff;
-         font-size: 10vw;
-         text-align: center;
-         transform: translateY(-14px);
-         transform: translateX(-14px);
-         margin-bottom: -42px;
-     }
-     .cv-button {
-    margin: 8%;
-    height: 59%;
-    width: 110px;
-}
-.icon-bar{
-        display: none;
-    }
-    #socials {
-        display: contents;
-        font-size: 6vw;
-        padding: 20%;
-       
-    }
-    footer {
-        font-size: 3vw;
-        position: relative;
-    }
+ 	.section-title {
+ 		font-family: "AzonixRegular";
+ 		color: #ffffff;
+ 		font-size: 10vw;
+ 		text-align: center;
+ 		transform: translateY(-14px);
+ 		transform: translateX(-14px);
+ 		margin-bottom: -42px;
+ 	}
+ 	.cv-button {
+ 		margin: 8%;
+ 		height: 59%;
+ 		width: 110px;
+ 	}
+ 	.icon-bar {
+ 		display: none;
+ 	}
+ 	#socials {
+ 		display: contents;
+ 		font-size: 6vw;
+ 		padding: 20%;
+ 	}
+ 	footer {
+ 		font-size: 3vw;
+ 		position: relative;
+ 	}
+ 	#background-landing {
+ 		height: 90vh;
+ 	}
+ 	.landing-image {
+ 		transform: translateX(10px);
+ 		transform: translateY(-10px);
+ 		padding: 23px;
+ 		width: 50%;
+ 	}
+ 	#landing-header {
+ 		transform: translateY(100px);
+ 		text-align: center;
+ 	}
+ 	.landing-info {
+ 		font-size: 4vw;
+ 		margin-top: auto;
+ 	}
+ 	.aboutme-info {
+ 		font-size: 2vw;
+ 		margin-top: 20px;
+ 		text-align: justify;
+ 		padding: 1rem 1rem 2rem 1rem;
+ 	}
+ 	#aboutme-section {
+ 		height: 520vh;
+ 	}
+ 	.aboutme-title {
+ 		font-family: "AzonixRegular";
+ 		color: #ffffff;
+ 		text-align: center;
+ 		margin-top: -10px;
+ 		transform: translateX(-39px);
+ 		margin-bottom: -10px;
+ 	}
+ 	.aboutme-sec {
+ 		margin-top: -100px;
+ 	}
+ 	.navbar-collapse {
+ 		width: 100%;
+ 	}
+ 	.nav-item {
+ 		background-color: black;
+ 		width: 160%;
+ 		text-align: center;
+ 	}
+ 	ul {
+ 		text-align: center;
+ 		width: 100%;
+ 		margin: 0;
+ 	}
+ 	.navbar-toggler {
+ 		left: 42%;
+ 		position: absolute;
+ 	}
+ 	.navbar-brand {
+ 		transform: translateX(-70px);
+ 		font-family: "AzonixRegular";
+ 		text-decoration: none;
+ 	}
+ 	.fa-bars {
+ 		color: #ffffff;
+ 		position: relative;
+ 		text-align: center;
+ 		z-index: 9998 !important;
+ 	}
 
-     #background-landing {
-         height: 90vh;
-     }
-
-     .landing-image {
-         transform: translateX(10px);
-         transform: translateY(-10px);
-         padding: 23px;
-         width: 50%;
-     }
-
-     #landing-header {
-         transform: translateY(100px);
-         text-align: center;
-     }
-
-     .landing-info {
-         font-size: 4vw;
-         margin-top: auto;
-     }
-
-     .aboutme-info {
-         font-size: 2vw;
-         margin-top: 20px;
-         text-align: justify;
-         padding: 1rem 1rem 2rem 1rem;
-     }
-
-     #aboutme-section {
-         height: 520vh;
-     }
-
-     .aboutme-title {
-         font-family: "AzonixRegular";
-         color: #ffffff;
-         text-align: center;
-         margin-top: -10px;
-         transform: translateX(-39px);
-         margin-bottom: -10px;
-     }
-
-     .aboutme-sec {
-         margin-top: -100px;
-     }
-
-     .navbar-collapse {
-         width: 100%;
-     }
-
-     .nav-item {
-         background-color: black;
-         width: 160%;
-         text-align: center;
-     }
-
-     ul {
-         text-align: center;
-         width: 100%;
-         margin: 0;
-     }
-
-     .navbar-toggler {
-         left: 42%;
-         position: absolute;
-     }
-        .navbar-brand {
-    transform: translateX(-70px);
-     font-family: "AzonixRegular";
-     text-decoration: none;
-
+ 	.main-timeline {
+ 		position: relative;
+ 		transform: translateY(-30px);
+ 	}
+ 	#projects-section {
+ 		height: 220vh;
+ 	}
+ 	.card-deck {
+ 		margin-top: 0px;
+ 		text-align: center;
+ 		font-size: 2vw;
+ 		padding: 5%;
+ 	}
+ 	#testimonial-section {
+ 		height: 70vh;
+ 	}
+ 	.fa-quote-left {
+ 		display: none;
+ 	}
+ 	.fa-quote-right {
+ 		display: none;
+ 	}
+ 	.carousel-caption {
+ 		font-size: 2vw;
+ 		color: #ffffff;
+ 	}
+ 	.carousel-control-prev {
+ 		transform: translateY(80px);
+ 	}
+ 	.carousel-control-next {
+ 		transform: translateY(80px);
+ 	}
  }
-
-     .fa-bars {
-
-         color: #ffffff;
-         position: relative;
-         text-align: center;
-         z-index: 9998 !important;
-     }
-
-     /* .nav-item:hover {
-         background-color: #012d32;
-    } */
-     .main-timeline {
-         position: relative;
-         transform: translateY(-30px);
-     }
-
-     #projects-section {
-         height: 220vh;
-     }
-
-     .card-deck {
-         margin-top: 0px;
-         text-align: center;
-         font-size: 2vw;
-
-         padding: 5%;
-     }
-
-     #testimonial-section {
-         height: 70vh;
-     }
-
-     .fa-quote-left {
-         display: none;
-     }
-
-     .fa-quote-right {
-         display: none;
-     }
-
-     .carousel-caption {
-         font-size: 2vw;
-         color: #ffffff;
-     }
-
-
-     .carousel-control-prev {
-         transform: translateY(80px);
-     }
-
-
-     .carousel-control-next {
-         transform: translateY(80px);
-     }
- }
-
  /* Device = iphone x */
  /* ##Screen = B/w 360px to 479px */
-
  @media (min-width: 375px) and (max-width: 410px) {
-     .section-title {
-         font-family: "AzonixRegular";
-         color: #ffffff;
-         text-align: justify;
-         text-align: center;
-         transform: translateY(-14px);
-         transform: translateX(-14px);
-
-         margin-bottom: -42px;
-     }
-     .cv-button {
-    margin: 8%;
-    height: 59%;
-    width: 110px;
-}
-.icon-bar{
-        display: none;
-    }
-    #socials {
-        display: contents;
-        font-size: 6vw;
-        padding: 20%;
-       
-    }
-    footer {
-        font-size: 3vw;
-        position: relative;
-    }
-
-     #background-landing {
-         height: 80vh;
-     }
-
-     .landing-image {
-         transform: translateX(10px);
-         transform: translateY(-10px);
-         padding: 23px;
-         width: 90%;
-     }
-
-     #landing-header {
-         transform: translateY(100px);
-         text-align: center;
-     }
-
-     .landing-info {
-         font-size: 4vw;
-         margin-top: auto;
-     }
-
-     .aboutme-info {
-         font-size: 4vw;
-         margin-top: 50px;
-         text-align: justify;
-         padding: 1rem 1rem 2rem 1rem;
-     }
-
-     #aboutme-section {
-         height: 370vh;
-     }
-
-     .aboutme-title {
-         font-family: "AzonixRegular";
-         color: #ffffff;
-         text-align: left;
-         transform: translateY(95px);
-         margin-left: 55px;
-         margin-bottom: 110px;
-     }
-
-     .aboutme-sec {
-         margin-top: -100px;
-     }
-
-     .navbar-collapse {
-         width: 80%;
-     }
-
-     .nav-item {
-         background-color: black;
-         width: 182%;
-         text-align: center;
-         padding-right: 100px;
-
-
-     }
-
-
-     ul {
-         text-align: center;
-         width: 120%;
-         margin: 0;
-     }
-
-     .navbar-toggler {
-         left: 40%;
-         position: absolute;
-     }
-
-     .fa-bars {
-         right: 50%;
-         color: #ffffff;
-         position: relative;
-         z-index: 9998 !important;
-     }
-
-     /* .nav-item:hover {
-         background-color: #012d32;
-    } */
-     .main-timeline {
-         position: relative;
-         transform: translateY(-30px);
-     }
-
-     #projects-section {
-         height: 200vh;
-     }
-
-     .card-deck {
-         margin-top: 0px;
-         text-align: center;
-         font-size: 4vw;
-     }
-
-     .fa-quote-left {
-         display: none;
-     }
-
-     .fa-quote-right {
-         display: none;
-     }
-
-     .carousel-caption {
-         font-size: 3vw;
-         color: #ffffff;
-     }
-
-
-     .carousel-control-prev {
-         transform: translateY(80px);
-     }
-
-
-     .carousel-control-next {
-         transform: translateY(80px);
-     }
-
+ 	.section-title {
+ 		font-family: "AzonixRegular";
+ 		color: #ffffff;
+ 		text-align: justify;
+ 		text-align: center;
+ 		transform: translateY(-14px);
+ 		transform: translateX(-14px);
+ 		margin-bottom: -42px;
+ 	}
+ 	.cv-button {
+ 		margin: 8%;
+ 		height: 59%;
+ 		width: 110px;
+ 	}
+ 	.icon-bar {
+ 		display: none;
+ 	}
+ 	#socials {
+ 		display: contents;
+ 		font-size: 6vw;
+ 		padding: 20%;
+ 	}
+ 	footer {
+ 		font-size: 3vw;
+ 		position: relative;
+ 	}
+ 	#background-landing {
+ 		height: 80vh;
+ 	}
+ 	.landing-image {
+ 		transform: translateX(10px);
+ 		transform: translateY(-10px);
+ 		padding: 23px;
+ 		width: 90%;
+ 	}
+ 	#landing-header {
+ 		transform: translateY(100px);
+ 		text-align: center;
+ 	}
+ 	.landing-info {
+ 		font-size: 4vw;
+ 		margin-top: auto;
+ 	}
+ 	.aboutme-info {
+ 		font-size: 4vw;
+ 		margin-top: 50px;
+ 		text-align: justify;
+ 		padding: 1rem 1rem 2rem 1rem;
+ 	}
+ 	#aboutme-section {
+ 		height: 370vh;
+ 	}
+ 	.aboutme-title {
+ 		font-family: "AzonixRegular";
+ 		color: #ffffff;
+ 		text-align: left;
+ 		transform: translateY(95px);
+ 		margin-left: 55px;
+ 		margin-bottom: 110px;
+ 	}
+ 	.aboutme-sec {
+ 		margin-top: -100px;
+ 	}
+ 	.navbar-collapse {
+ 		width: 80%;
+ 	}
+ 	.nav-item {
+ 		background-color: black;
+ 		width: 182%;
+ 		text-align: center;
+ 		padding-right: 100px;
+ 	}
+ 	ul {
+ 		text-align: center;
+ 		width: 120%;
+ 		margin: 0;
+ 	}
+ 	.navbar-toggler {
+ 		left: 40%;
+ 		position: absolute;
+ 	}
+ 	.fa-bars {
+ 		right: 50%;
+ 		color: #ffffff;
+ 		position: relative;
+ 		z-index: 9998 !important;
+ 	}
+ 
+ 	.main-timeline {
+ 		position: relative;
+ 		transform: translateY(-30px);
+ 	}
+ 	#projects-section {
+ 		height: 200vh;
+ 	}
+ 	.card-deck {
+ 		margin-top: 0px;
+ 		text-align: center;
+ 		font-size: 4vw;
+ 	}
+ 	.fa-quote-left {
+ 		display: none;
+ 	}
+ 	.fa-quote-right {
+ 		display: none;
+ 	}
+ 	.carousel-caption {
+ 		font-size: 3vw;
+ 		color: #ffffff;
+ 	}
+ 	.carousel-control-prev {
+ 		transform: translateY(80px);
+ 	}
+ 	.carousel-control-next {
+ 		transform: translateY(80px);
+ 	}
  }
-
  /* small screens, laptops */
  @media (min-width: 768px) and (max-width: 1023px) {
+ 	/* For ipad layouts */
+ 	.section-title {
+ 		font-family: "AzonixRegular";
+ 		color: #ffffff;
+ 		text-align: justify;
+ 		text-align: center;
+ 		transform: translateY(-14px);
+ 		transform: translateX(-14px);
+ 		margin-bottom: -42px;
+ 	}
+ 	.icon-bar {
+ 		display: none;
+ 	}
+ 	#socials {
+ 		display: contents;
+ 		font-size: 6vw;
+ 		padding: 20%;
+ 	}
+ 	footer {
+ 		font-size: 3vw;
+ 		position: relative;
+ 	}
+ 	#background-landing {
+ 		height: 50vh;
+ 	}
+ 	.landing-image {
+ 		transform: translateX(10px);
+ 		transform: translateY(-10px);
+ 		padding: 23px;
+ 		width: 90%;
+ 	}
+ 	.cv-button {
+ 		margin: 8%;
+ 		height: 59%;
+ 		width: 110px;
+ 	}
+ 	#landing-header {
+ 		transform: translateY(100px);
+ 		text-align: center;
+ 	}
+ 	.landing-info {
+ 		font-size: 2vw;
+ 		margin-top: auto;
+ 	}
+ 	.aboutme-info {
+ 		font-size: 2vw;
+ 		margin-top: 50px;
+ 		text-align: justify;
+ 		padding: 1rem 1rem 2rem 1rem;
+ 	}
+ 	#aboutme-section {
+ 		height: 170vh;
+ 	}
+ 	.aboutme-title {
+ 		font-family: "AzonixRegular";
+ 		color: #ffffff;
+ 		text-align: left;
+ 		transform: translateY(95px);
+ 		margin-left: 55px;
+ 		margin-bottom: 110px;
+ 	}
+ 	.aboutme-sec {
+ 		margin-top: -100px;
+ 	}
+ 	.navbar-collapse {
+ 		width: 100%;
+ 	}
+ 	.nav-item {
+ 		background-color: black;
+ 		width: 130%;
+ 		text-align: center;
+ 	}
+ 	ul {
+ 		text-align: center;
+ 		width: 100%;
+ 		margin: 0;
+ 	}
+ 	.navbar-toggler {
+ 		left: 70%;
+ 		position: absolute;
+ 	}
+ 	.navbar-brand {
+ 		transform: translateX(-70px);
+ 		font-family: "AzonixRegular";
+ 		text-decoration: none;
+ 	}
+ 	.fa-bars {
+ 		right: 50%;
+ 		color: #ffffff;
+ 		position: relative;
+ 		text-align: center;
+ 		z-index: 9998 !important;
+ 	}
 
-     /* For ipad layouts */
-     .section-title {
-         font-family: "AzonixRegular";
-         color: #ffffff;
-         text-align: justify;
-         text-align: center;
-         transform: translateY(-14px);
-         transform: translateX(-14px);
-         margin-bottom: -42px;
-     }
-     .icon-bar{
-        display: none;
-    }
-    #socials {
-        display: contents;
-        font-size: 6vw;
-        padding: 20%;
-       
-    }
-    footer {
-        font-size: 3vw;
-        position: relative;
-    }
-
-     #background-landing {
-         height: 50vh;
-     }
-
-     .landing-image {
-         transform: translateX(10px);
-         transform: translateY(-10px);
-         padding: 23px;
-         width: 90%;
-     }
-     .cv-button {
-    margin: 8%;
-    height: 59%;
-    width: 110px;
-}
-
-     #landing-header {
-         transform: translateY(100px);
-         text-align: center;
-     }
-
-     .landing-info {
-         font-size: 2vw;
-         margin-top: auto;
-     }
-
-     .aboutme-info {
-         font-size: 2vw;
-         margin-top: 50px;
-         text-align: justify;
-         padding: 1rem 1rem 2rem 1rem;
-     }
-
-     #aboutme-section {
-         height: 170vh;
-     }
-
-     .aboutme-title {
-         font-family: "AzonixRegular";
-         color: #ffffff;
-         text-align: left;
-         transform: translateY(95px);
-         margin-left: 55px;
-         margin-bottom: 110px;
-     }
-
-     .aboutme-sec {
-         margin-top: -100px;
-     }
-
-     .navbar-collapse {
-         width: 100%;
-     }
-
-     .nav-item {
-         background-color: black;
-         width: 130%;
-         text-align: center;
-     }
-
-     ul {
-         text-align: center;
-         width: 100%;
-         margin: 0;
-     }
-
-     .navbar-toggler {
-         left: 70%;
-         position: absolute;
-     }
-        .navbar-brand {
-    transform: translateX(-70px);
-     font-family: "AzonixRegular";
-     text-decoration: none;
-
+ 	.main-timeline {
+ 		position: relative;
+ 		transform: translateY(-30px);
+ 	}
+ 	#projects-section {
+ 		height: 80vh;
+ 	}
+ 	.card-deck {
+ 		margin-top: 0px;
+ 		text-align: center;
+ 		font-size: 2vw;
+ 		padding: 5%;
+ 	}
+ 	#testimonial-section {
+ 		height: 80vh;
+ 	}
+ 	.fa-quote-left {
+ 		display: none;
+ 	}
+ 	.fa-quote-right {
+ 		display: none;
+ 	}
+ 	.carousel-caption {
+ 		font-size: 3vw;
+ 		color: #ffffff;
+ 	}
+ 	.carousel-control-prev {
+ 		transform: translateY(80px);
+ 	}
+ 	.carousel-control-next {
+ 		transform: translateY(80px);
+ 	}
  }
-
-     .fa-bars {
-         right: 50%;
-         color: #ffffff;
-         position: relative;
-         text-align: center;
-         z-index: 9998 !important;
-     }
-
-     /* .nav-item:hover {
-         background-color: #012d32;
-    } */
-     .main-timeline {
-         position: relative;
-         transform: translateY(-30px);
-     }
-
-     #projects-section {
-         height: 80vh;
-     }
-
-     .card-deck {
-         margin-top: 0px;
-         text-align: center;
-         font-size: 2vw;
-         padding: 5%;
-     }
-
-     #testimonial-section {
-         height: 80vh;
-     }
-
-     .fa-quote-left {
-         display: none;
-     }
-
-     .fa-quote-right {
-         display: none;
-     }
-
-     .carousel-caption {
-         font-size: 3vw;
-         color: #ffffff;
-     }
-
-
-     .carousel-control-prev {
-         transform: translateY(80px);
-     }
-
-
-     .carousel-control-next {
-         transform: translateY(80px);
-     }
- }
-
  /* desktop large scr */
  @media (min-width: 1024px) and (max-width: 1200px) {
-     .section-title {
-         font-family: "AzonixRegular";
-         color: #ffffff;
-         text-align: justify;
-         text-align: center;
-         transform: translateY(-14px);
-         transform: translateX(-14px);
-         margin-bottom: -42px;
-     }
-     
-
-     .aboutme-title {
-         font-family: "AzonixRegular";
-         color: #ffffff;
-         text-align: left;
-         margin-left: 101px;
-         margin-top: -92px;
-         margin-bottom: 51px;
-     }
-
-     #background-landing {
-         height: 45vh;
-     }
-
-     #aboutme-section {
-         height: 120vh;
-     }
-
-     .main-timeline {
-         transform: translateY(-111px)
-     }
-
-     #projects-section {
-         height: 70vh;
-     }
-
-     .card-deck {
-         margin-top: 0px;
-         text-align: center;
-         font-size: 2vw;
-         padding: 5%;
-     }
-
-     #testimonial-section {
-         height: 60vh;
-     }
-
-     .navbar-collapse {
-         width: 100%;
-     }
-
-     .nav-item {
-         background-color: black;
-         width: 130%;
-         text-align: center;
-     }
-
-     ul {
-         text-align: center;
-         width: 100%;
-         margin: 0;
-     }
-
-     .navbar-toggler {
-         left: 70%;
-         position: absolute;
-     }
-
-     .fa-bars {
-         right: 50%;
-         color: #ffffff;
-         position: relative;
-         text-align: center;
-         z-index: 9998 !important;
-     }
-
-
-
+ 	.section-title {
+ 		font-family: "AzonixRegular";
+ 		color: #ffffff;
+ 		text-align: justify;
+ 		text-align: center;
+ 		transform: translateY(-14px);
+ 		transform: translateX(-14px);
+ 		margin-bottom: -42px;
+ 	}
+ 	.aboutme-title {
+ 		font-family: "AzonixRegular";
+ 		color: #ffffff;
+ 		text-align: left;
+ 		margin-left: 101px;
+ 		margin-top: -92px;
+ 		margin-bottom: 51px;
+ 	}
+ 	#background-landing {
+ 		height: 45vh;
+ 	}
+ 	#aboutme-section {
+ 		height: 120vh;
+ 	}
+ 	.main-timeline {
+ 		transform: translateY(-111px)
+ 	}
+ 	#projects-section {
+ 		height: 70vh;
+ 	}
+ 	.card-deck {
+ 		margin-top: 0px;
+ 		text-align: center;
+ 		font-size: 2vw;
+ 		padding: 5%;
+ 	}
+ 	#testimonial-section {
+ 		height: 60vh;
+ 	}
+ 	.navbar-collapse {
+ 		width: 100%;
+ 	}
+ 	.nav-item {
+ 		background-color: black;
+ 		width: 130%;
+ 		text-align: center;
+ 	}
+ 	ul {
+ 		text-align: center;
+ 		width: 100%;
+ 		margin: 0;
+ 	}
+ 	.navbar-toggler {
+ 		left: 70%;
+ 		position: absolute;
+ 	}
+ 	.fa-bars {
+ 		right: 50%;
+ 		color: #ffffff;
+ 		position: relative;
+ 		text-align: center;
+ 		z-index: 9998 !important;
+ 	}
  }
