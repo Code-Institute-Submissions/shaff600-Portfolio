@@ -19,14 +19,14 @@
 # Purpose
 This website is ultimately developed to showcase previous work history and skill to recruiters and technical personnel. By doing this, it can allow for collaboration for consultancy and freelance projects. This creates a platform where all projects, social media and CV links can be displayed within a centralised location.
 # Features
- - Demonstrate previous development projects
- - Detail working history 
- - Provide testimonials from previous employees (from Linkedin)
- - Provide social media links 
- - Download and view CV
- - Sticky Nav Bar
- - Sticky Social Media Icons
-	 - Disabled at Mobile View
+ - Demonstrate previous development projects.
+ - Detail working history.
+ - Provide testimonials from previous employees (from Linkedin).
+ - Provide social media links.
+ - Download and view CV.
+ - Sticky Nav Bar.
+ - Sticky Social Media Icons.
+	 - Disabled at Mobile View.
 # User Experience (UX) Design
 ## Strategy
 My objective for this website is to allow potential recruiters and tech personnel to view work history and projects. The website aims to attract the end user and to contact for opportunities.
@@ -49,20 +49,20 @@ Wireframes where created to allow a visual representation of the layout of the w
 
 **First **Time** Visitor**
 
--	Idetify purpose of the website once site is opened
--	Navigate through sections in a timely manner 
--	Social Media platforms easily accessible to view social presence 
--	Review previous work history
--	Explore recent development projects
--	View testimonials from previous employees
+-	Idetify purpose of the website once site is opened.
+-	Navigate through sections in a timely manner.
+-	Social Media platforms easily accessible to view social presence. 
+-	Review previous work history.
+-	Explore recent development projects.
+-	View testimonials from previous employees.
 
 **Returning **Visitor** Goals**
--	Monitor progress of development skills
--	View online CV
-	-	Collect contact infomation 
-	- Download CV
--	Identify updates on timeline section
--	Further examine social media content
+-	Monitor progress of development skills.
+-	View online CV.
+	-	Collect contact infomation.
+	- Download CV.
+-	Identify updates on timeline section.
+-	Further examine social media content.
 
  # Design 
  ## Color Scheme
@@ -70,7 +70,7 @@ Wireframes where created to allow a visual representation of the layout of the w
 <img width="903" alt="palette" src="assets/README_img/palette.png">		
  ## Font
 -	Whilst browsing for fonts, I came across a font name called "Azonix" which was not available on popular online typography services i.e Google Fonts. This meant that i had to download the typography in a "OTF" format and use "@font-face" within the CSS. I chose this specific font as I think its aesthetically appealing and catches the users eye.
--	For the secondary font styling, I selected "Andika New Basic" with a fallback font of "sans-serif" These fonts are clean and professional
+-	For the secondary font styling, I selected "Andika New Basic" with a fallback font of "sans-serif" These fonts are clean and professional.
 
 # Technologies Used
 ### Languages:
@@ -82,13 +82,13 @@ Wireframes where created to allow a visual representation of the layout of the w
   -   <a href="https://getwaves.io/"> Get Waves  </a>
 		  -	This tool was used to generate an SVG for the curved backgrounds of the website.
 	-   <a href="https://coolors.co/"> Coolors </a>
-			- Online color scheme allowed to create a palette of colors which was used for the website
+			- Online color scheme allowed to create a palette of colors which was used for the website.
 	-  <a href="https://www.bitmoji.com/"> Bitmoji</a>
 			- Online tool for a personal emoji
 	-   <a href="https://fontawesome.com/"> Font Awesome</a>
-			- This tool provided icons throughout the website to aid UX
+			- This tool provided icons throughout the website to aid UX.
 	-   <a href="https://getbootstrap.com/docs/4.1/getting-started/introduction/"> Bootstrap Documentation </a>
-			- Documentation provided code for the components of the website such as card stack for layout of projects section	
+			- Documentation provided code for the components of the website such as card stack for layout of projects section.	
  
 # Testing
 ### HTML
@@ -97,7 +97,7 @@ HTML was validated with <a href="https://validator.w3.org/"> Validator w3. </a> 
 -	After applying fixes to HTML:
 	-	<a href="assets/README_img/fix.png"> HTML Validation Fixed </a>
 ### CSS
-CSS was validated with <a href="https://validator.w3.org/"> Validator w3. </a> CSS did not produce any validation errors
+CSS was validated with <a href="https://validator.w3.org/"> Validator w3. </a> CSS did not produce any validation errors:
 <p>
     <a href="http://jigsaw.w3.org/css-validator/check/referer">
         <img style="border:0;width:88px;height:31px"
@@ -150,13 +150,17 @@ Here is a link that can explain this process further.  [Click Here](https://help
 In order to make the website a more user friendly platform, the website shortcommings detailed within the [Issues Faced](#issues-faced) section would have to be resolved. A deeper understaning of media queries and the Bootstrap grid system will help identify reasonings of css elements overlapping and allow for a more responsive site. 
 # Credits
 -  <a href="https://codepen.io/Washable/pen/Oxqjbq"> Code Pen</a>
-			- Provided code snippet for carousel for the testimonial section
+			- Provided code snippet for carousel for the testimonial section.
 -  <a href="https://mdbootstrap.com/snippets/jquery/ascensus/1727054#css-tab-view"> MD Bootstrap</a>
-			- Provided code snippet for sticky navbar
+			- Provided code snippet for sticky navbar.
 -  <a href="https://scalablecss.com/setup-custom-fonts-with-font-face/"> Scalable CSS</a>
 			- Detailed how to implement custom fonts using the "@font-face" element
 -  <a href="https://www.bootdey.com/snippets/view/bs4-my-experience-timeline#html"> Boot Dey</a>
-			- Provided code snippet for timeline section
+			- Provided code snippet for timeline section.
 -  <a href="https://www.w3schools.com/howto/howto_css_sticky_social_bar.asp"> w3schools</a>
-			- Provided code snippet to create a sticky social bar
+			- Provided code snippet to create a sticky social bar.
+-  <a href="https://getbootstrap.com/docs/4.0/components/card/"> Bootstrap Documentation</a>
+			- Provided code snippet to create cards for project section.
+			
+			
  
