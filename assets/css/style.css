@@ -90,7 +90,7 @@
  	color: white;
  	font-size: 20px;
  }
- /* Style the social media icons with color, if you want */
+ /* Style the social media icons with color - from w3schools */
  .icon-bar a:hover {
  	background-color: #000;
  }
@@ -824,8 +824,8 @@
  	}
  }
  /* small screens, laptops */
+ /* For ipad layouts */
  @media (min-width: 768px) and (max-width: 1023px) {
- 	/* For ipad layouts */
  	.section-title {
  		font-family: "AzonixRegular";
  		color: #ffffff;
@@ -952,7 +952,7 @@
  		transform: translateY(80px);
  	}
  }
- /* desktop large scr */
+ /* desktop large screens */
  @media (min-width: 1024px) and (max-width: 1200px) {
  	.section-title {
  		font-family: "AzonixRegular";
