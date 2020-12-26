@@ -454,7 +454,7 @@
  		margin-bottom: 10px;
  	}
  }
- /* END OF TIMELINE STYLING */
+
  /* ##Device = Galaxy s5/MotoG4 ##Screen = B/w 360px to 479px */
  @media (min-width: 340px) and (max-width: 410px) {
  	.section-title {
@@ -703,7 +703,7 @@
  		transform: translateY(80px);
  	}
  }
- /* Device = iphone x */
+ 
  /* ##Screen = B/w 360px to 479px */
  @media (min-width: 375px) and (max-width: 410px) {
  	.section-title {
@@ -824,7 +824,6 @@
  	}
  }
  /* small screens, laptops */
- /* For ipad layouts */
  @media (min-width: 768px) and (max-width: 1023px) {
  	.section-title {
  		font-family: "AzonixRegular";
