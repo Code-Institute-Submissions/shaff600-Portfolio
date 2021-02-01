@@ -29,8 +29,8 @@ nav {}
 }
 
 .nav-item:hover {
-	color: #ff0000 !important;
-	text-decoration-color: #E18728
+	
+	
 }
 
 .navbar-float-right {
@@ -56,14 +56,16 @@ a {
 
 .nav-link:hover {
 	display: inline-block;
-	border-bottom: 1px solid black;
+	border-bottom: 1px solid #ffffff;
 	padding-bottom: 2px;
-	color: #6C757D;
+	color: #ffffff;
 }
 
 .cv-button {
 	margin: 13%;
-	width: 110px;
+    width: 110px;
+    color: #ffffff;
+    background-color: #51686A;
 }
 
 .cv-button:hover {
@@ -734,6 +736,7 @@ footer {
 		text-decoration: none;
 	}
 	.fa-bars {
+        	right: 50%;
 		color: #ffffff;
 		position: relative;
 		text-align: center;
