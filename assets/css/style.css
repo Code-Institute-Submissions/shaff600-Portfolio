@@ -182,7 +182,7 @@ a {
 	font-family: "AzonixRegular";
 	color: #ffffff;
 	text-align: left;
-	margin-left: 100px;
+	margin-left: 114px;
 	margin-top: -130px;
 	margin-bottom: 75px;
 }
@@ -193,7 +193,8 @@ a {
 	text-align: justify;
 	margin-top: -130px;
 	padding: 100px;
-	font-size: 1.5rem;
+    font-size: 1.5rem;
+    color: #ffffff ;
 }
 
 .aboutme {
@@ -452,7 +453,8 @@ footer {
 
 .main-timeline .description {
 	margin-bottom: 0;
-	font-size: 1.2rem;
+    font-size: 1.2rem;
+    color: #ffffff;
 }
 
 .main-timeline .timeline:nth-child(2n) .date-content {
@@ -1117,9 +1119,8 @@ footer {
     }
     	.aboutme-info {
 		font-size: 1.1rem;
-		margin-top: 50px;
 		text-align: justify;
-		padding: 1rem 1rem 2rem 1rem;
+		
 	}
     .main-timeline {
 		transform: translateY(-100px)
