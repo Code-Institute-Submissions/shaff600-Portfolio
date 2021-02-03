@@ -1,5 +1,6 @@
 
 
+
 # Welcome to My First Milestone Project - Portfolio Website 
 <img width="903" alt="devices" src="assets/README_img/devices.png">
 
@@ -32,10 +33,10 @@ This website is ultimately developed to showcase previous work history and skill
 My objective for this website is to allow potential recruiters and tech personnel to view work history and projects. The website aims to attract the end user and to contact for opportunities.
 
 ## Scope
-The website was developed to exclusively showcase potential in software development. The landing page was designed to allow personnel instalty understand concept of the website. This website will provide history of employment and display previous development projects. Relevant links would be provided to live projects and social media platforms to view social presence.
+The website was developed to exclusively showcase potential in software development. The landing page was designed to allow personnel instantly understand concept of the website. This website will provide history of employment and display previous development projects. Relevant links would be provided to live projects and social media platforms to view social presence.
 
 ## Structure 
-The website was designed as a single page application  (SPA). The reasoning behind this is that users don't tend to have much time on their hands, so a SPA make all content easily visable and gets straight to the point without navigating through multiple pages. The "View CV" was designed to capture the eye of the user to view contact infomation written within the CV.
+The website was designed as a single page application  (SPA). The reasoning behind this is that users don't tend to have much time on their hands, so a SPA make all content easily visible and gets straight to the point without navigating through multiple pages. The "View CV" was designed to capture the eye of the user to view contact information written within the CV.
 ## Skeleton
 Wireframes where created to allow a visual representation of the layout of the website. This aided the development to ensure content is placed correctly. 
 -	A tool called "Balsamiq" was used to provide 
@@ -49,7 +50,7 @@ Wireframes where created to allow a visual representation of the layout of the w
 
 **First **Time** Visitor**
 
--	Idetify purpose of the website once site is opened.
+-	Identify purpose of the website once site is opened.
 -	Navigate through sections in a timely manner.
 -	Social Media platforms easily accessible to view social presence. 
 -	Review previous work history.
@@ -59,7 +60,7 @@ Wireframes where created to allow a visual representation of the layout of the w
 **Returning **Visitor** Goals**
 -	Monitor progress of development skills.
 -	View online CV.
-	-	Collect contact infomation.
+	-	Collect contact information.
 	- Download CV.
 -	Identify updates on timeline section.
 -	Further examine social media content.
@@ -73,26 +74,35 @@ Wireframes where created to allow a visual representation of the layout of the w
 -	For the secondary font styling, I selected "Andika New Basic" with a fallback font of "sans-serif" These fonts are clean and professional.
 
 # Technologies Used
-### Languages:
+### Languages and Framework Used:
  1. HTML <img align="left" alt="HTML5" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" />
  2. CSS <img align="left" alt="CSS3" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" />
  3. Bootstrap <img align="left" alt="Bootstrap" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/bootstrap/bootstrap.png" /> 
  
- # Resources Used:
-  -   <a href="https://getwaves.io/"> Get Waves  </a>
-		  -	This tool was used to generate an SVG for the curved backgrounds of the website.
-	-   <a href="https://coolors.co/"> Coolors </a>
-			- Online color scheme allowed to create a palette of colors which was used for the website.
-	-  <a href="https://www.bitmoji.com/"> Bitmoji</a>
-			- Online tool for a personal emoji
-	-   <a href="https://fontawesome.com/"> Font Awesome</a>
-			- This tool provided icons throughout the website to aid UX.
-	-   <a href="https://getbootstrap.com/docs/4.1/getting-started/introduction/"> Bootstrap Documentation </a>
-			- Documentation provided code for the components of the website such as card stack for layout of projects section.	
- 
+ # Other Resources Used:
+ 1.	 <a href="https://getwaves.io/"> Get Waves  </a>
+		  This tool was used to generate an SVG for the curved backgrounds of the website.
+2.  <a href="https://coolors.co/"> Coolors </a>
+			Online color scheme allowed to create a palette of colors which was used for the website.
+3. <a href="https://www.bitmoji.com/"> Bitmoji</a>
+			Online tool for a personal emoji
+4. <a href="https://fontawesome.com/"> Font Awesome</a>
+			This tool provided icons throughout the website to aid UX.
+5.	<a href="https://getbootstrap.com/docs/4.1/getting-started/introduction/"> Bootstrap Documentation </a>
+			Documentation provided code for the components of the website such as card stack for layout of projects section.
+6.	 <a href="https://git-scm.com/"> Git</a>
+		Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+7.	 <a href="https://github.com"> GitHub</a>
+		Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+8.	 <a href="https://balsamiq.com/"> Balsamiq</a>
+	Balsamiq was used to create the  wireframes during the design process.
+9. <a href="http://ami.responsivedesign.is/"> Am I Responsive </a>
+	Used to check website responsiveness across variety of different device types. 
+10. <a href="https://gitpod.io/"> GitPod IDE</a>
+	IDE (Integrated Development Environment), for writing, editing and saving code.
 # Testing
 ### HTML
-HTML was validated with <a href="https://validator.w3.org/"> Validator w3. </a> The first attept to validate HTML contents produced 6 errors. This was due to "the element button must not appear as a descendant of the a element". This error occured as I was using buttons within "a" tags. Listed error messages can be found here:
+HTML was validated with <a href="https://validator.w3.org/"> Validator w3. </a> The first attempt to validate HTML contents produced 6 errors. This was due to "the element button must not appear as a descendant of the a element". This error occured as I was using buttons within "a" tags. Listed error messages can be found here:
 <a href="assets/README_img/errors.png"> HTML Validation Errors </a>
 -	After applying fixes to HTML:
 	-	<a href="assets/README_img/fix.png"> HTML Validation Fixed </a>
@@ -147,7 +157,7 @@ $ git clone https://github.com/shaff600/Portfolio
 
 Here is a link that can explain this process further.  [Click Here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop)
 # Future Development
-In order to make the website a more user friendly platform, the website shortcommings detailed within the [Issues Faced](#issues-faced) section would have to be resolved. A deeper understaning of media queries and the Bootstrap grid system will help identify reasonings of css elements overlapping and allow for a more responsive site. 
+In order to make the website a more user friendly platform, the website shortcomings detailed within the [Issues Faced](#issues-faced) section would have to be resolved. A deeper understanding of media queries and the Bootstrap grid system will help identify reasonings of css elements overlapping and allow for a more responsive site. 
 # Credits
 -  <a href="https://codepen.io/Washable/pen/Oxqjbq"> Code Pen</a>
 			- Provided code snippet for carousel for the testimonial section.
