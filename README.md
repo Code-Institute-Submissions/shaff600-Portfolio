@@ -128,16 +128,16 @@ To test the responsiveness of the site I used [Chrome DevTools](https://develope
 ## Test Cases
 All tests have been completed using the previous tools mentioned within the previous section. The website has been tested across several devices and browsers. The below segment details the use cases of the website being tested against its expected functionality compared to the actual results. Whilst there wasn't any major issues found, I have highlighted issues faced.
 ### Navbar 
-<img width="903" alt="devices" src="documentation/README_img/navbartst.png">
+<img width="903" alt="devices" src="documentation/README_img/navbartst.PNG">
 
 ### Social Links
-<img width="903" alt="devices" src="documentation/README_img/socialstst.png">
+<img width="903" alt="devices" src="documentation/README_img/socialstst.PNG">
 
 ### Project Section
-<img width="903" alt="devices" src="documentation/README_img/projectsts.png">
+<img width="903" alt="devices" src="documentation/README_img/projectsts.PNG">
 
 ### Carousel 
-<img width="903" alt="devices" src="documentation/README_img/testtst.png">
+<img width="903" alt="devices" src="documentation/README_img/testimonialtst.PNG">
 
 ## Testing User Stories
 **First **Time** Visitor**
