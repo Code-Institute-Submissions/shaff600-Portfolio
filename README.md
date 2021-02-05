@@ -2,7 +2,7 @@
 
 
 # Welcome to My First Milestone Project - Portfolio Website 
-<img width="903" alt="devices" src="assets/README_img/devices.png">
+<img width="903" alt="devices" src="documentation/README_img/devices.png">
 
 # Table of Contents
 
@@ -68,7 +68,7 @@ Wireframes where created to allow a visual representation of the layout of the w
  # Design 
  ## Color Scheme
 -	Prior tot he development of the project, i created a palette on "coolors.co". The palette can be found below: 
-<img width="903" alt="palette" src="assets/README_img/palette.png">		
+<img width="903" alt="palette" src="documentation/README_img/palette.png">		
  ## Font
 -	Whilst browsing for fonts, I came across a font name called "Azonix" which was not available on popular online typography services i.e Google Fonts. This meant that i had to download the typography in a "OTF" format and use "@font-face" within the CSS. I chose this specific font as I think its aesthetically appealing and catches the users eye.
 -	For the secondary font styling, I selected "Andika New Basic" with a fallback font of "sans-serif" These fonts are clean and professional.
@@ -114,6 +114,58 @@ CSS was validated with <a href="https://validator.w3.org/"> Validator w3. </a> C
             src="http://jigsaw.w3.org/css-validator/images/vcss"
             alt="Valid CSS!" />
     </a> </p>
+
+## Responsiveness
+To test the responsiveness of the site I used [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools), [Responsive Design Checker](https://www.responsivedesignchecker.com/) and [BrowserStack](https://www.browserstack.com/).
+	 
+
+ - Chrome DevTools
+	 - This tool was used throughout development to test and debug code.
+- Responsive Design Checker
+	- Online tool which provided testing against websites scalability across device dimensions.
+- BrowserStack
+	- Provided the platform to test website across different browsers
+## Test Cases
+All tests have been completed using the previous tools mentioned within the previous section. The website has been tested across several devices and browsers. The below segment details the use cases of the website being tested against its expected functionality compared to the actual results. Whilst there wasn't any major issues found, I have highlighted issues faced.
+### Navbar 
+<img width="903" alt="devices" src="documentation/README_img/navbartst.png">
+
+### Social Links
+<img width="903" alt="devices" src="documentation/README_img/socialstst.png">
+
+### Project Section
+<img width="903" alt="devices" src="documentation/README_img/projectsts.png">
+
+### Carousel 
+<img width="903" alt="devices" src="documentation/README_img/testtst.png">
+
+## Testing User Stories
+**First **Time** Visitor**
+
+-	Identify purpose of the website once site is opened.
+	-	Landing page provides clear message of purpose of website 
+-	Navigate through sections in a timely manner.
+	-	Navbar provides links to relevant sections with lag
+	-	Sticky navbar enabled when scrolling through website 
+-	Social Media platforms easily accessible to view social presence. 
+	-	Each social icon display in a new tab
+	-	Social icons visible on sticky nav bar and included within footer section whilst on mobile and tablet
+-	Review previous work history.
+	-	Details provided within timeline section of website 
+-	Explore recent development projects.
+	-	Most recent project displayed under projects section
+-	View testimonials from previous employees.
+	-	Carousel included with recommendations from Linkedin account
+
+**Returning **Visitor** Goals**
+-	Monitor progress of development skills.
+	-	Project section includes most recent development projects
+-	View online CV.
+	-	CV can be accessed under the "View CV" button on navbar
+-	Identify updates on timeline section.
+	-	Users can view timeline events under timeline section
+-	Further examine social media content.
+	-	Social media links provided 
 
 # Issues Faced
 ### Sticky Nav Bar 
